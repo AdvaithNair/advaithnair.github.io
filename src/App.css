@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+    font-family: 'Montserrat';
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+    src: local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype');
+}
+
+.text-center {
+    text-align: center;
+}
+
+.App { 
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-img-container {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.header-img {
+    display: block;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: solid 5px #1677CB;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #F012BE, #39CCCC);
+    background-origin: border-box;
+}
+
+.header-name {
+    font-size: 40px;
+    text-align: center;
+}
+
+.header-bio {
+    font-weight: 500;
+    text-align: center;
+    margin-top: -20px;
+}
+
+nav {
+    overflow: hidden;
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+}
+
+nav a {
+    float: left;
+    display: block;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 auto;
+    border-bottom: 3px solid white;
+}
+
+nav a:hover {
+    color: #8E8E8E;
+    border-bottom: 3px solid #8E8E8E; 
+    transition: border 0.5s;
+}
+
+nav a.active {
+    color: black;
+    border-bottom: 3px solid black; 
+    transition: border 0.5s;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.about-list-main {
+    display: flex;
+}
+
+.about-list {
+    display: inline-block;;
+    margin: 0 auto;
+}
