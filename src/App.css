@@ -21,7 +21,7 @@ body {
     text-align: center;
 }
 
-.App { 
+.App {
     width: 80%;
     margin: 0 auto;
 }
@@ -80,13 +80,13 @@ nav a {
 
 nav a:hover {
     color: #8E8E8E;
-    border-bottom: 3px solid #8E8E8E; 
+    border-bottom: 3px solid #8E8E8E;
     transition: border 0.5s;
 }
 
 nav a.active {
     color: black;
-    border-bottom: 3px solid black; 
+    border-bottom: 3px solid black;
     transition: border 0.5s;
 }
 
@@ -105,6 +105,55 @@ nav a.active {
 }
 
 .about-list {
-    display: inline-block;;
+    display: inline-block;
+    ;
     margin: 0 auto;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.skill-title {
+    margin: 0px -10px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    padding: 1px 10px;
+}
+
+.skill-box {
+    background: white;
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px 0px #3F3F3F;
+    -webkit-transition: box-shadow 0.3s ease;
+    -moz-transition: box-shadow 0.3s ease;
+    -o-transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease;
+}
+
+.skill-box:hover {
+    box-shadow: 0px 0px 5px 3px #3F3F3F;
+}
+
+.skill-image {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .skill-box {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .skill-box {
+        width: 90%;
+    }
 }
