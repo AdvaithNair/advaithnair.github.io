@@ -1,6 +1,7 @@
 import React from "react";
 import tech from "../content/tech.json";
 import SkillBox from "./SkillBox";
+import StackBox from "./StackBox";
 
 const Tech: React.FC = () => {
   return (
@@ -15,7 +16,12 @@ const Tech: React.FC = () => {
           <SkillBox tech={element} isProficient={false} />
         ))}
       </div>
-      <h2 className="text-center">Stacks</h2>
+      <h2 className="text-center" style ={{marginTop: 40}}>My Stack</h2>
+      <div className="stack-container">
+        {tech.stack.map(element => (
+          <StackBox tech={element} />
+        ))}
+      </div>
     </div>
   );
 };
