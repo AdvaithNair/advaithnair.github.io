@@ -8,7 +8,7 @@ const Tech: React.FC = () => {
     <div className="tech">
       <h1 className="text-center">Tech</h1>
       <h2 className="text-center">Skills</h2>
-      <div className="skills-container">
+      <div className="flex-container">
         {tech.proficient.map(element => (
           <SkillBox tech={element} isProficient={true} />
         ))}
@@ -17,7 +17,7 @@ const Tech: React.FC = () => {
         ))}
       </div>
       <h2 className="text-center" style ={{marginTop: 40}}>My Stack</h2>
-      <div className="stack-container">
+      <div className="flex-container">
         {tech.stack.map(element => (
           <StackBox tech={element} />
         ))}

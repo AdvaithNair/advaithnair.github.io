@@ -7,7 +7,7 @@ interface Props {
 
 const SkillBox: React.FC<Props> = ({ tech, isProficient }) => {
   const newTech: string = tech === "C#" ? "CSharp" : tech;
-  const image = require(`../images/Skills/${newTech}.png`);
+  const image: string = require(`../images/Skills/${newTech}.png`);
   return (
     <div className="skill-box">
       <div

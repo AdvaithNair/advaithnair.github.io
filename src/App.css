@@ -124,21 +124,42 @@ nav a.active {
     margin: 0 auto;
 }
 
-.skills-container, .stack-container {
+.flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-flow: wrap;
 }
 
-.skill-title, .stack-title {
+.skill-title, .stack-title, .project-title {
     margin: 0px -10px;
     margin-top: -10px;
     margin-bottom: 20px;
     padding: 15px 5px;
 }
 
-.skill-box {
+.project-title {
+    background: #181818;
+    color: white;
+    padding: 5px 5px;
+    display: block;
+    position: relative;
+}
+
+.project-description {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.github-icon {
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+}
+
+.skill-box, .stack-box, .project-box {
     background: white;
     width: 20%;
     padding: 10px;
@@ -153,16 +174,13 @@ nav a.active {
 .stack-box {
     background: #DDD;
     width: 10%;
-    padding: 10px;
-    margin: 10px;
-    box-shadow: 0px 0px 5px 0px #3F3F3F;
-    -webkit-transition: box-shadow 0.3s ease;
-    -moz-transition: box-shadow 0.3s ease;
-    -o-transition: box-shadow 0.3s ease;
-    transition: box-shadow 0.3s ease;
 }
 
-.skill-box:hover, .stack-box:hover {
+.project-box {
+    width: 45%;
+}
+
+.skill-box:hover, .stack-box:hover, .project-box:hover {
     box-shadow: 0px 0px 5px 3px #3F3F3F;
 }
 
@@ -182,6 +200,29 @@ nav a.active {
     color: white;
 }
 
+.button {
+    width: 100px;
+    margin: 10px auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    background-color: #8E8E8E;
+    -webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background: #181818;
+    cursor: pointer;
+}
+
+.project-modal {
+    margin: 20px;
+}
+
 @media screen and (max-width: 1200px) {
     .skill-box {
         width: 40%;
@@ -192,7 +233,7 @@ nav a.active {
 }
 
 @media screen and (max-width: 600px) {
-    .skill-box, .stack-box {
+    .skill-box, .stack-box, .project-box {
         width: 90%;
     }
 }

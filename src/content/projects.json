@@ -1,0 +1,13 @@
+{
+    "projects": [{
+        "title": "Append",
+        "description": "The Future of Networking",
+        "repo": "https://github.com/AdvaithNair/graphql-api-template"
+    },
+    {
+        "title": "RANT",
+        "description": "The Platform to Vent",
+        "repo": "https://github.com/AdvaithNair/rant",
+        "site": "https://rant-dd853.web.app/"
+    }]
+}

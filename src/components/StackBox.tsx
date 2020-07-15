@@ -5,16 +5,12 @@ interface Props {
 }
 
 const StackBox: React.FC<Props> = ({ tech }) => {
-  const newTech: string = tech === "C#" ? "CSharp" : tech;
-  const image = require(`../images/Skills/${newTech}.png`);
+  const image: string = require(`../images/Skills/${tech}.png`);
   return (
     <div className="stack-box">
-      <div
-        className="stack-title"
-      >
+      <div className="stack-title">
         <h3 className="text-center">{tech}</h3>
       </div>
-
       <img src={image} alt={tech} className="skill-image"></img>
     </div>
   );
