@@ -3,6 +3,14 @@ export interface Project {
     description: string;
     repo: string;
     site?: string;
+    about?: string;
+    tech?: ProjectTech;
+}
+
+interface ProjectTech {
+    general?: Array<string>;
+    frontend?: Array<string>;
+    backend?: Array<string>;
 }
 
 export const openLink = (url: string):void => {

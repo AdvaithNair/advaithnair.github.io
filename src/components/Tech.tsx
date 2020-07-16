@@ -5,7 +5,7 @@ import StackBox from "./StackBox";
 
 const Tech: React.FC = () => {
   return (
-    <div className="tech">
+    <div className="tech" id="tech">
       <h1 className="text-center">Tech</h1>
       <h2 className="text-center">Skills</h2>
       <div className="flex-container">

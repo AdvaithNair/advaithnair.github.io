@@ -1,5 +1,5 @@
 {
     "proficient": ["TypeScript", "Java", "Python", "JavaScript", "NodeJS", "ReactJS", "PostgreSQL", "GraphQL"],
     "comfortable": ["C", "C++", "C#", "Google Cloud"],
-    "stack": ["ReactJS", "NodeJS", "TypeScript", "GraphQL", "PostgreSQL", "Google Cloud"]
+    "stack": ["TypeScript", "ReactJS", "NodeJS", "GraphQL", "PostgreSQL", "Google Cloud"]
 }

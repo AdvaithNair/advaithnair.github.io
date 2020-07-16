@@ -3,6 +3,10 @@ body {
     font-family: 'Montserrat';
 }
 
+html {
+    scroll-behavior:smooth
+}
+
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
@@ -221,6 +225,14 @@ nav a.active {
 
 .project-modal {
     margin: 20px;
+}
+
+.project-tech {
+    display: flex;
+}
+
+.project-tech-box {
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1200px) {

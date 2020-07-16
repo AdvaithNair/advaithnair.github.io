@@ -5,7 +5,7 @@ import { Project } from "../types.js";
 
 const Projects: React.FC = () => {
   return (
-    <div className="tech">
+    <div id="projects">
       <h1 className="text-center">Projects</h1>
       <div className="flex-container">
         {projects.projects.map((element: Project) => (

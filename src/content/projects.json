@@ -1,13 +1,63 @@
 {
-    "projects": [{
-        "title": "Append",
-        "description": "The Future of Networking",
-        "repo": "https://github.com/AdvaithNair/graphql-api-template"
+  "projects": [
+    {
+      "title": "Append",
+      "description": "The Future of Networking",
+      "repo": "https://github.com/AdvaithNair/graphql-api-template",
+      "about": "Append is a platform designed to make sharing ALL contact information extremely convenient through link sharing.",
+      "tech": {
+        "general": ["GraphQL API", "Postman", "Google OAuth", "Facebook OAuth"],
+        "frontend": [
+          "TypeScript",
+          "ReactJS",
+          "React Native",
+          "React Context API",
+          "Material UI",
+          "Apollo Client",
+          "Axios",
+          "JSON Web Tokens"
+        ],
+        "backend": [
+          "TypeScript",
+          "NodeJS",
+          "ExpressJS",
+          "Express Sessions",
+          "PostgreSQL Database",
+          "Redis In-Memory Cache",
+          "Google Cloud Storage (Bucket Storage)",
+          "Type GraphQL",
+          "TypeORM",
+          "PassportJS OAuth Service"
+        ]
+      }
     },
     {
-        "title": "RANT",
-        "description": "The Platform to Vent",
-        "repo": "https://github.com/AdvaithNair/rant",
-        "site": "https://rant-dd853.web.app/"
-    }]
+      "title": "RANT",
+      "description": "The Platform to Vent",
+      "repo": "https://github.com/AdvaithNair/rant",
+      "site": "https://rant-dd853.web.app/",
+      "about": "RANT is a Social Media designed for people to RANT away their frustrations, featuring anonymous, private, and public posting.",
+      "tech": {
+        "general": ["REST API", "Postman"],
+        "frontend": [
+          "TypeScript",
+          "ReactJS",
+          "React Context API",
+          "Material UI",
+          "Axios",
+          "DayJS",
+          "JSON Web Tokens",
+          "Firebase Hosting"
+        ],
+        "backend": [
+          "TypeScript",
+          "NodeJS",
+          "ExpressJS",
+          "Firebase Cloud Functions (Serverless API Deployment)",
+          "Firebase Cloud Firestore (NoSQL Database)",
+          "Firebase Cloud Storage (Bucket Storage)"
+        ]
+      }
+    }
+  ]
 }
