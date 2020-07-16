@@ -3,9 +3,10 @@ import "./App.css";
 import Header from "./components/Header";
 import About from "./components/About";
 import Tech from "./components/Tech";
-import Footer from "./components/Footer";
 import Projects from "./components/Projects";
+import Socials from "./components/Socials";
 import Secret from "./components/Secret";
+import Footer from "./components/Footer";
 
 const App: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const App: React.FC = () => {
         <About />
         <Projects />
         <Tech />
+        <Socials />
         <Secret />
       </div>
       <Footer />

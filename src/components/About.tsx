@@ -1,5 +1,6 @@
 import React from "react";
 import about from "../content/about.json";
+import { openLink } from "../types";
 
 const About: React.FC = () => {
   return (
@@ -12,10 +13,16 @@ const About: React.FC = () => {
       ))}
       <div className="about-list-main">
         <div className="about-list">
-          {about.list.split("\n").map((item, index) => (
+          {about.list.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
         </div>
+      </div>
+      <div
+        className="button"
+        onClick={() => openLink("https://advaithnair.com")}
+      >
+        Website
       </div>
     </div>
   );

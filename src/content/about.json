@@ -1,4 +1,14 @@
 {
-    "bio": "",
-    "list": "I'm a Full Stack Developer.\nI'm 18 years old.\nI attend Lehigh University.\n I study Computer Science and Business.\nI'm graduating in 2022.\nI enjoy coding. For reals.\nI've helped build 7 robots.\nI have a dog (his name is Kulfi)."
+  "bio": "",
+  "list": [
+    "I'm a Full Stack Developer.",
+    "I'm 18 years old.",
+    "I attend Lehigh University.",
+    "I study Computer Science and Business.",
+    "I'm graduating in 2022.",
+    "I enjoy coding. For reals.",
+    "I've helped build 7 robots.",
+    "I have a dog (his name is Kulfi).",
+    "I have a cooler website."
+  ]
 }

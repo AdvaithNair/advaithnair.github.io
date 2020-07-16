@@ -13,6 +13,11 @@ interface ProjectTech {
     backend?: Array<string>;
 }
 
+export interface Social {
+    name: string;
+    link: string;
+}
+
 export const openLink = (url: string):void => {
     const win = window.open(url, '_blank');
     win!.focus();

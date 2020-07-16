@@ -9,17 +9,19 @@ const Tech: React.FC = () => {
       <h1 className="text-center">Tech</h1>
       <h2 className="text-center">Skills</h2>
       <div className="flex-container">
-        {tech.proficient.map(element => (
-          <SkillBox tech={element} isProficient={true} />
+        {tech.proficient.map((element, index) => (
+          <SkillBox tech={element} isProficient={true} key={index} />
         ))}
-        {tech.comfortable.map(element => (
-          <SkillBox tech={element} isProficient={false} />
+        {tech.comfortable.map((element, index) => (
+          <SkillBox tech={element} isProficient={false} key={index} />
         ))}
       </div>
-      <h2 className="text-center" style ={{marginTop: 40}}>My Stack</h2>
+      <h2 className="text-center" style={{ marginTop: 40 }}>
+        My Stack
+      </h2>
       <div className="flex-container">
-        {tech.stack.map(element => (
-          <StackBox tech={element} />
+        {tech.stack.map((element, index) => (
+          <StackBox tech={element} key={index} />
         ))}
       </div>
     </div>

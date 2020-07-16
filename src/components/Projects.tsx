@@ -8,8 +8,8 @@ const Projects: React.FC = () => {
     <div id="projects">
       <h1 className="text-center">Projects</h1>
       <div className="flex-container">
-        {projects.projects.map((element: Project) => (
-          <ProjectBox data={element} />
+        {projects.projects.map((element: Project, index: number) => (
+          <ProjectBox data={element} key={index} />
         ))}
       </div>
     </div>

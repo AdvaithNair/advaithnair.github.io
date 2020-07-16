@@ -47,9 +47,7 @@ const ProjectBox: React.FC<Props> = ({ data }) => {
           </p>
           {data!.about && (
             <div className="text-center">
-              <h3 style={{ marginTop: 20 }}>
-                About
-              </h3>
+              <h3 style={{ marginTop: 20 }}>About</h3>
               <p>{data.about}</p>
             </div>
           )}
@@ -62,8 +60,8 @@ const ProjectBox: React.FC<Props> = ({ data }) => {
                 <div>
                   <h4 style={{ marginTop: 10 }}>General</h4>
                   <p>
-                    {data.tech!.general.map(element => (
-                      <li>{element}</li>
+                    {data.tech!.general.map((element, index) => (
+                      <li key={index}>{element}</li>
                     ))}
                   </p>
                 </div>
@@ -72,8 +70,8 @@ const ProjectBox: React.FC<Props> = ({ data }) => {
                 <div>
                   <h4 style={{ marginTop: 10 }}>Frontend</h4>
                   <p>
-                    {data.tech!.frontend.map(element => (
-                      <li>{element}</li>
+                    {data.tech!.frontend.map((element, index) => (
+                      <li key={index}>{element}</li>
                     ))}
                   </p>
                 </div>
@@ -82,8 +80,8 @@ const ProjectBox: React.FC<Props> = ({ data }) => {
                 <div>
                   <h4 style={{ marginTop: 10 }}>Backend</h4>
                   <p>
-                    {data.tech!.backend.map(element => (
-                      <li>{element}</li>
+                    {data.tech!.backend.map((element, index) => (
+                      <li key={index}>{element}</li>
                     ))}
                   </p>
                 </div>
