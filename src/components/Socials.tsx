@@ -5,7 +5,7 @@ import { Social } from "../types";
 
 const Socials: React.FC = () => {
   return (
-    <div className="text-center">
+    <div className="text-center" id="socials">
       <h1>Socials</h1>
       <p style={{ marginTop: 20 }}>{socials.about}</p>
       <div className="social-container">

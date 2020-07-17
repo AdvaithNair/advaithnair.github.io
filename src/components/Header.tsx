@@ -1,10 +1,12 @@
 import React from "react";
+import { useHistory } from "react-router";
 const Headshot = require("../images/Headshot.JPG");
 
 const Header: React.FC = () => {
+  const history = useHistory();
   return (
     <div className="header">
-      <div className="header-img-container">
+      <div className="header-img-container" onClick={() => history.push("/")}>
         <img className="header-img" src={Headshot} alt="Advaith Nair" />
       </div>
       <h1 className="header-name">Advaith Nair</h1>
