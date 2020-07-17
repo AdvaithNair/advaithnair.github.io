@@ -1,29 +1,37 @@
 {
-    "about": "I'm a human in the 21st century so yeah I use social media. Add me and let's chat.",
-    "socials": [
-        {
-            "name": "Facebook",
-            "link": "https://www.facebook.com/advaith.nair.794/"
-        },
-        {
-            "name": "Instagram",
-            "link": "https://www.instagram.com/advaith.exe/"
-        },
-        {
-            "name": "Snapchat",
-            "link": "https://www.snapchat.com/add/adnair01/"
-        },
-        {
-            "name": "GitHub",
-            "link": "https://github.com/AdvaithNair/"
-        },
-        {
-            "name": "Twitter",
-            "link": "https://twitter.com/nair_advaith/"
-        },
-        {
-            "name": "YouTube",
-            "link": "https://www.youtube.com/channel/UCFBs5WTkBdjtflEy4pHk0jg/"
-        }
-    ]
+  "about": "I'm a human in the 21st century so yeah I use social media. Add me and let's chat.",
+  "socials": [
+    {
+      "name": "Facebook",
+      "link": "https://www.facebook.com/advaith.nair.794/"
+    },
+    {
+      "name": "Instagram",
+      "link": "https://www.instagram.com/advaith.exe/"
+    },
+    {
+      "name": "Snapchat",
+      "link": "https://www.snapchat.com/add/adnair01/"
+    },
+    {
+      "name": "GitHub",
+      "link": "https://github.com/AdvaithNair/"
+    },
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/advaith-nair/"
+    },
+    {
+      "name": "Twitter",
+      "link": "https://twitter.com/nair_advaith/"
+    },
+    {
+      "name": "YouTube",
+      "link": "https://www.youtube.com/channel/UCFBs5WTkBdjtflEy4pHk0jg/"
+    },
+    {
+      "name": "Reddit",
+      "link": "https://www.reddit.com/user/AdNair14"
+    }
+  ]
 }
