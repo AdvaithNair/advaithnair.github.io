@@ -12,6 +12,9 @@ const Main: React.FC = () => {
         </div>
       </div>
       <div className="menu-container">
+        <div className="menu-item">
+          <p>About</p>
+        </div>
         <div className="menu-item" onClick={() => history.push("/code")}>
           <p>Code</p>
         </div>

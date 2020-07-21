@@ -147,7 +147,10 @@ body, html {
 nav {
     overflow: hidden;
     display: flex;
-    width: 400px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    max-width: 400px;
     margin: 0 auto;
 }
 
@@ -324,6 +327,12 @@ nav a.active {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .project-box {
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 675px) {
     .main-title h1 {
         padding: 20px;
@@ -331,7 +340,7 @@ nav a.active {
 }
 
 @media screen and (max-width: 600px) {
-    .skill-box, .stack-box, .project-box {
+    .skill-box, .stack-box {
         width: 90%;
     }
     .social-box {
@@ -345,5 +354,12 @@ nav a.active {
 @media screen and (max-width: 400px) {
     .main-title {
         width: 100%;
+    }
+    nav {
+        max-width: 100px;
+    }
+    .header-img, .header-img-container {
+        width: 200px;
+        height: 200px;
     }
 }

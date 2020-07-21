@@ -14,7 +14,6 @@ const Header: React.FC = () => {
         <i>Hi I'm Advaith and I Code.</i>
       </p>
       <nav>
-        <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#tech">Tech</a>
         <a href="#socials">Socials</a>
