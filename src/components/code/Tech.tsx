@@ -1,5 +1,5 @@
 import React from "react";
-import tech from "../content/tech.json";
+import tech from "../../content/tech.json";
 import SkillBox from "./SkillBox";
 import StackBox from "./StackBox";
 

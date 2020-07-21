@@ -1,5 +1,5 @@
 import React from "react";
-import { Social, openLink } from "../types";
+import { Social, openLink } from "../../types";
 import Tooltip from "@material-ui/core/Tooltip";
 
 interface Props {
@@ -7,7 +7,7 @@ interface Props {
 }
 
 const SocialBox: React.FC<Props> = ({ social }) => {
-  const image: string = require(`../images/Socials/${social.name}.png`);
+  const image: string = require(`../../images/Socials/${social.name}.png`);
   return (
     <Tooltip title={social.name}>
       <div className="social-box">

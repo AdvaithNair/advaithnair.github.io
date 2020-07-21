@@ -5,7 +5,7 @@ interface Props {
 }
 
 const StackBox: React.FC<Props> = ({ tech }) => {
-  const image: string = require(`../images/Skills/${tech}.png`);
+  const image: string = require(`../../images/Skills/${tech}.png`);
   return (
     <div className="stack-box">
       <div className="stack-title">

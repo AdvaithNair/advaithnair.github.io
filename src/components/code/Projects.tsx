@@ -1,7 +1,7 @@
 import React from "react";
-import projects from "../content/projects.json";
+import projects from "../../content/projects.json";
 import ProjectBox from "./ProjectBox";
-import { Project } from "../types.js";
+import { Project } from "../../types.js";
 
 const Projects: React.FC = () => {
   return (

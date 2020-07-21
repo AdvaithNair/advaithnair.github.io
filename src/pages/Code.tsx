@@ -1,17 +1,17 @@
 import React from "react";
 import "../App.css";
-import Header from "../components/Header";
-import Tech from "../components/Tech";
-import Projects from "../components/Projects";
-import Socials from "../components/Socials";
-import Secret from "../components/Secret";
-import Footer from "../components/Footer";
+import CodeHeader from "../components/code/CodeHeader";
+import Tech from "../components/code/Tech";
+import Projects from "../components/code/Projects";
+import Socials from "../components/code/Socials";
+import Secret from "../components/code/Secret";
+import Footer from "../components/code/Footer";
 
 const Code: React.FC = () => {
   return (
     <div>
       <div className="App">
-        <Header />
+        <CodeHeader />
         <Projects />
         <Tech />
         <Socials />

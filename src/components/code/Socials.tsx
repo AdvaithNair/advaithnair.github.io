@@ -1,7 +1,7 @@
 import React from "react";
-import socials from "../content/socials.json";
+import socials from "../../content/socials.json";
 import SocialBox from "./SocialBox";
-import { Social } from "../types";
+import { Social } from "../../types";
 
 const Socials: React.FC = () => {
   return (

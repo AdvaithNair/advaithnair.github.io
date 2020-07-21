@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import GitHubIcon from "../images/Icons/GitHub.png";
-import { Project, openLink } from "../types";
+import GitHubIcon from "../../images/Icons/GitHub.png";
+import { Project, openLink } from "../../types";
 import Tooltip from "@material-ui/core/Tooltip";
 import Dialog from "@material-ui/core/Dialog";
 
@@ -9,8 +9,8 @@ interface Props {
 }
 
 const ProjectBox: React.FC<Props> = ({ data }) => {
-  const logo: string = require(`../images/Projects/${data.title}-logo.png`);
-  const app: string = require(`../images/Projects/${data.title}-app.png`);
+  const logo: string = require(`../../images/Projects/${data.title}-logo.png`);
+  const app: string = require(`../../images/Projects/${data.title}-app.png`);
 
   const [open, setOpen] = useState<boolean>(false);
   return (

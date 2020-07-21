@@ -1,6 +1,6 @@
 import React from "react";
-import about from "../content/about.json";
-import { openLink } from "../types";
+import about from "../../content/about.json";
+import { openLink } from "../../types";
 
 const About: React.FC = () => {
   return (

@@ -3,6 +3,7 @@ import { useHistory } from "react-router-dom";
 
 const Main: React.FC = () => {
   const history = useHistory();
+  
   return (
     <div>
       <div className="main-cover"></div>
@@ -18,7 +19,7 @@ const Main: React.FC = () => {
         <div className="menu-item" onClick={() => history.push("/code")}>
           <p>Code</p>
         </div>
-        <div className="menu-item">
+        <div className="menu-item" onClick={() => history.push("/art")}>
           <p>Art</p>
         </div>
       </div>

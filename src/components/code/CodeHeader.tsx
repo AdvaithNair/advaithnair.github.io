@@ -1,13 +1,16 @@
 import React from "react";
 import { useHistory } from "react-router";
-const Headshot = require("../images/Headshot.JPG");
+import Tooltip from "@material-ui/core/Tooltip";
+const Headshot = require("../../images/Headshot.JPG");
 
-const Header: React.FC = () => {
+const CodeHeader: React.FC = () => {
   const history = useHistory();
   return (
     <div className="header">
       <div className="header-img-container" onClick={() => history.push("/")}>
-        <img className="header-img" src={Headshot} alt="Advaith Nair" />
+        <Tooltip title="Home">
+          <img className="header-img" src={Headshot} alt="Advaith Nair" />
+        </Tooltip>
       </div>
       <h1 className="header-name">Advaith Nair</h1>
       <p className="header-bio">
@@ -22,4 +25,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default CodeHeader;

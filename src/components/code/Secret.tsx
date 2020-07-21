@@ -1,6 +1,6 @@
 import React from "react";
-import secret from "../content/secret.json";
-import { openLink } from "../types";
+import secret from "../../content/secret.json";
+import { openLink } from "../../types";
 
 const Secret: React.FC = () => {
   return (
