@@ -139,7 +139,9 @@ body, html {
 .art-header-content h1 {
     float: left;
     margin-left: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 45px;
 }
 
 .art-header-content {
@@ -310,6 +312,20 @@ nav a.active, .art-nav a:active {
     transition: box-shadow 0.3s ease;
 }
 
+.logo-box {
+    width: 20%;
+    margin: 20px;
+}
+
+.logo-box:hover {
+    cursor: pointer;
+}
+
+.logo-image {
+    width: 100%;
+    height: 100%;
+}
+
 .stack-box {
     background: #DDD;
     width: 10%;
@@ -377,7 +393,7 @@ nav a.active, .art-nav a:active {
 }
 
 @media screen and (max-width: 1200px) {
-    .skill-box {
+    .skill-box, .logo-box {
         width: 40%;
     }
     .stack-box, .social-box {
@@ -395,10 +411,17 @@ nav a.active, .art-nav a:active {
     .main-title h1 {
         padding: 20px;
     }
+    .art-mobile {
+        display: block;
+        margin-top: -10px;
+    }
+    .art-nav-items {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    .skill-box, .stack-box {
+    .skill-box, .stack-box, .logo-box {
         width: 90%;
     }
     .social-box {
@@ -406,13 +429,6 @@ nav a.active, .art-nav a:active {
     }
     .menu-container {
         width: 300px
-    }
-    .art-mobile {
-        display: block;
-        margin-top: -10px;
-    }
-    .art-nav-items {
-        display: none;
     }
 }
 
@@ -426,6 +442,11 @@ nav a.active, .art-nav a:active {
     .header-img, .header-img-container {
         width: 200px;
         height: 200px;
+    }
+    .art-header-content h1 {
+        font-size: 30px;
+        margin-top: 40px;
+        margin-left: 10px;
     }
 }
 

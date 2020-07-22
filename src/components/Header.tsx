@@ -5,9 +5,14 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import Popover from "@material-ui/core/Popover";
 import ClickAwayListener from "@material-ui/core/ClickAwayListener";
-const ArtLogo = require("../../images/Logos/AdvaithArts.png");
 
-const ArtHeader: React.FC = () => {
+interface Props {
+  title: string;
+  logo: any;
+  tabs: Array<string>;
+}
+
+const Header: React.FC<Props> = ({ title, logo, tabs }) => {
   const history = useHistory();
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 
@@ -24,10 +29,10 @@ const ArtHeader: React.FC = () => {
       <div className="art-header-content">
         <div onClick={() => history.push("/")}>
           <Tooltip title="Home">
-            <img className="art-header-img" src={ArtLogo} alt="Advaith Arts" />
+            <img className="art-header-img" src={logo} alt="Advaith Arts" />
           </Tooltip>
         </div>
-        <h1>ARTS</h1>
+        <h1>{title}</h1>
         <div className="art-nav">
           <div className="art-mobile">
             <IconButton style={{ color: "black" }} onClick={handleClick}>
@@ -35,9 +40,11 @@ const ArtHeader: React.FC = () => {
             </IconButton>
           </div>
           <div className="art-nav-items">
-            <a href="#logos">Logos</a>
-            <a href="#films">Films</a>
-            <a href="#other">Other</a>
+            {tabs.map((item: string, index: number) => (
+              <a key={index} href={`#${item}`}>
+                {item}
+              </a>
+            ))}
           </div>
           <Popover
             open={Boolean(anchorEl)}
@@ -53,9 +60,11 @@ const ArtHeader: React.FC = () => {
           >
             <ClickAwayListener onClickAway={handleClose}>
               <div className="art-mobile-items">
-                <a href="#logos" onClick={handleClose}>Logos</a>
-                <a href="#films" onClick={handleClose}>Films</a>
-                <a href="#other" onClick={handleClose}>Other</a>
+                {tabs.map((item: string, index: number) => (
+                  <a key={index} href={`#${item}`} onClick={handleClose}>
+                    {item}
+                  </a>
+                ))}
               </div>
             </ClickAwayListener>
           </Popover>
@@ -65,4 +74,4 @@ const ArtHeader: React.FC = () => {
   );
 };
 
-export default ArtHeader;
+export default Header;

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Main from "./pages/Main";
 import Code from "./pages/Code";
-import Art from "./pages/Art";
+import Arts from "./pages/Arts";
 
 const App: React.FC = () => {
   return (
@@ -11,7 +11,7 @@ const App: React.FC = () => {
       <Switch>
         <Route exact path='/' component={Main} />
         <Route exact path="/code" component={Code} />
-        <Route exact path="/art" component={Art} />
+        <Route exact path="/art" component={Arts} />
       </Switch>
     </Router>
   );

@@ -1,12 +1,12 @@
 import React from "react";
-import tech from "../../content/tech.json";
+import tech from "../../content/code/tech.json";
 import SkillBox from "./SkillBox";
 import StackBox from "./StackBox";
 
 const Tech: React.FC = () => {
   return (
     <div className="tech" id="tech">
-      <h1 className="text-center">Tech</h1>
+      <h1 className="text-center">TECH</h1>
       <h2 className="text-center">Skills</h2>
       <div className="flex-container">
         {tech.proficient.map((element, index) => (
