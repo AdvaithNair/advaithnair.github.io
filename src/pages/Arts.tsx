@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import Footer from "../components/code/Footer";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ArtsLogo from "../images/Logos/AdvaithArts.png";
 import Logos from "../components/arts/Logos";

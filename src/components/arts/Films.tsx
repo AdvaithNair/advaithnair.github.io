@@ -10,10 +10,14 @@ const Films: React.FC = () => {
   };
   return (
     <div>
-      <h1 id="films">FILMS</h1>
-      <h2>Robotics</h2>
+      <h1 id="films" className="text-center">FILMS</h1>
+      <h2 className="text-center">Featured</h2>
       <div className="embed-container">
         <Iframe className="film-playlist" url={films.featured} />
+      </div>
+      <h2 className="text-center">Robotics</h2>
+      <div className="embed-container">
+        <Iframe className="film-playlist" url={films.robotics} />
       </div>
     </div>
   );
