@@ -1,4 +1,32 @@
 {
-  "icon": ["Append", "RANT", "Aglet", "NeoFlow"],
-  "full": ["Append", "RANT", "Aglet", "NeoFlow"]
+  "icon": [
+    "Append",
+    "RANT",
+    "Aglet",
+    "LocPod",
+    "Optic",
+    "MemorEase",
+    "Interchange",
+    "SimplyPowered",
+    "River",
+    "SparkTech",
+    "Overcharged",
+    "NeoFlow",
+    "Neodyne"
+  ],
+  "full": [
+    "Append",
+    "RANT",
+    "Aglet",
+    "LocPod",
+    "QuickNet",
+    "MemorEase",
+    "Interchange",
+    "SimplyPowered",
+    "River",
+    "SparkTech",
+    "Overcharged",
+    "NeoFlow",
+    "Neodyne"
+  ]
 }

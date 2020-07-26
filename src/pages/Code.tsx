@@ -7,7 +7,7 @@ import Projects from "../components/code/Projects";
 import Socials from "../components/code/Socials";
 import Secret from "../components/code/Secret";
 import Footer from "../components/code/Footer";
-import CodeLogo from '../images/Logos/AdvaithLogo.png';
+import CodeLogo from '../images/Logos/AdvaithCode.png';
 
 const Code: React.FC = () => {
   return (
