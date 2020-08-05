@@ -55,5 +55,38 @@
         "Utilized SQLite database to store match data and Java to process data and compile CSV file of ranked data."
       ]
     }
+  ],
+  "leadership": [
+    {
+      "title": "Developer Student Club (DSC) Lead at Lehigh University",
+      "organization": "Google Developers",
+      "website": "",
+      "date": "September 2019 - Present",
+      "content": [
+        "Initiating club as a product manager, teaching 50+ Lehigh students to develop apps helping local organizations.",
+        "Spearheading online events including presentations, meetings, and app creation workspaces for Lehigh students."
+      ]
+    },
+    {
+      "title": "Co-Founder, President",
+      "organization": "Neodyne Business Initiative",
+      "website": "neodynebusiness.com",
+      "date": "October 2016 - Present",
+      "content": [
+        "Managing 501(c)(3) non-profit incubator fostering tech-entrepreneurs by consulting 13 businesses around the US.",
+        "Assisting 2 individuals with tactical web development, marketing plan creation, and pricing strategies to boost sales."
+      ]
+    },
+    {
+      "title": "Mentor, Founding Captain, Two-Time Robotics World Champion",
+      "organization": "Spark Tech Education",
+      "website": "",
+      "date": "May 2013 - Present",
+      "content": [
+        "Individually mentoring 25+ students in 3+ reputable FIRST Robotics teams to design and build competitive robots.",
+        "Competed at World Championships Elimination matches for 6 years, winning the World Championships 2 times.",
+        "Organized 50+ outreach events to improve Oregon STEM and raised $15,000+ to fund other teams and non-profits."
+      ]
+    }
   ]
 }

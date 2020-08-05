@@ -1,7 +1,8 @@
 import React from "react";
 import Education from "./resume/Education";
-import Experience from "./resume/Experience";
 import Skills from "./resume/Skills";
+import Experience from "./resume/Experience";
+import Leadership from "./resume/Leadership";
 
 const Resume: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const Resume: React.FC = () => {
         <Education />
         <Skills />
         <Experience />
+        <Leadership />
       </div>
     </div>
   );
