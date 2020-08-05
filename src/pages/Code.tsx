@@ -1,7 +1,6 @@
 import React from "react";
 import "../App.css";
 import Header from "../components/Header";
-import CodeHeader from "../components/code/CodeHeader";
 import Tech from "../components/code/Tech";
 import Projects from "../components/code/Projects";
 import Socials from "../components/code/Socials";
@@ -14,7 +13,6 @@ const Code: React.FC = () => {
     <div>
       <Header title="code" logo={CodeLogo} tabs={['projects', 'tech', 'socials']} />
       <div className="App">
-        {/*<CodeHeader />*/}
         <Projects />
         <Tech />
         <Socials />

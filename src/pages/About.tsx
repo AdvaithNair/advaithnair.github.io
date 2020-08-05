@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import Header from "../components/Header";
 import Me from "../components/about/Me";
+import Resume from "../components/about/Resume";
 import Socials from "../components/code/Socials";
 import Footer from "../components/Footer";
 import AboutLogo from '../images/Logos/AdvaithLogo.png';
@@ -12,6 +13,7 @@ const About: React.FC = () => {
       <Header title="about" logo={AboutLogo} tabs={['me', 'resume', 'socials']} />
       <div className="App">
         <Me />
+        <Resume />
         <Socials />
       </div>
       <Footer />

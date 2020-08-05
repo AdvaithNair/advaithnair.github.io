@@ -453,6 +453,28 @@ nav a.active, .art-nav a:active {
     margin: 0 auto;
 }
 
+.resume-section {
+    border-bottom: 3px solid black;
+}
+
+.education p {
+    padding: 5px 0px;
+}
+
+.side-by-side {}
+
+.left-element {
+    float: left;
+}
+
+.right-element {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
 @media screen and (max-width: 1200px) {
     .skill-box, .logo-box {
         width: 40%;

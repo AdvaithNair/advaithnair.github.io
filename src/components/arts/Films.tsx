@@ -1,13 +1,8 @@
 import React from "react";
 import films from "../../content/arts/films.json";
-import LogoBox from "./LogoBox";
 import Iframe from "react-iframe";
 
 const Films: React.FC = () => {
-  const playlistDimensions = {
-    width: "560",
-    height: "315"
-  };
   return (
     <div>
       <h1 id="films" className="text-center">FILMS</h1>
