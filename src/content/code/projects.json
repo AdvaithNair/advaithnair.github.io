@@ -2,6 +2,7 @@
   "projects": [
     {
       "title": "Append",
+      "current": true,
       "description": "The Future of Networking",
       "repo": "https://github.com/AdvaithNair/graphql-api-template",
       "about": "Append is a platform designed to make sharing ALL contact information extremely convenient through link sharing.",
@@ -33,6 +34,7 @@
     },
     {
       "title": "RANT",
+      "current": false,
       "description": "The Platform to Vent",
       "repo": "https://github.com/AdvaithNair/rant",
       "site": "https://rant-dd853.web.app/",
@@ -56,6 +58,48 @@
           "Firebase Cloud Functions (Serverless API Deployment)",
           "Firebase Cloud Firestore (NoSQL Database)",
           "Firebase Cloud Storage (Bucket Storage)"
+        ]
+      }
+    },
+    {
+      "title": "Aglet",
+      "current": false,
+      "description": "Your Sneaker Collection",
+      "repo": "https://github.com/AdvaithNair/aglet",
+      "about": "Aglet is a sneaker wishlist app, where users can create, update, and delete sneaker listings featuring fast sorting options.",
+      "tech": {
+        "general": ["GraphQL API"],
+        "frontend": [
+          "JavaScript",
+          "ReactJS",
+          "Material UI",
+          "Apollo Client"
+        ],
+        "backend": [
+          "JavaScript",
+          "NodeJS",
+          "Apollo Server",
+          "Prisma GraphQL Yoga Server",
+          "MongoDB"
+        ]
+      }
+    },
+    {
+      "title": "FTC Relic Recovery Scouting",
+      "current": false,
+      "description": "Robotics Data Analytics Platform",
+      "site": "https://play.google.com/store/apps/details?id=overcharged.nair.advaith.relicrecoveryscouting&hl=en_US",
+      "about": "FTC Relic Recovery Scouting is an application for robotics students to enter robot match data to generate a ranked list of teams to ally with.",
+      "tech": {
+        "general": ["Social Media Marketing"],
+        "frontend": [
+          "Java",
+          "XML",
+          "Android Studio"
+        ],
+        "backend": [
+          "Java",
+          "MySQL"
         ]
       }
     }

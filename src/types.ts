@@ -1,10 +1,11 @@
 export interface Project {
     title: string;
     description: string;
-    repo: string;
+    repo?: string;
     site?: string;
     about?: string;
     tech?: ProjectTech;
+    current: boolean;
 }
 
 interface ProjectTech {

@@ -6,7 +6,7 @@ import Leadership from "./resume/Leadership";
 
 const Resume: React.FC = () => {
   return (
-    <div className="">
+    <div id="resume">
       <h1 className="text-center">RESUME</h1>
       <div className="resume-parts">
         <Education />
