@@ -5,7 +5,7 @@
     "degree": "Bachelor of Science (B.S.) in Computer Science & Business (CSB)",
     "courses": "Data Structures and Algorithms, Java Programming, Discrete Math, Statistics, Linear Algebra, Intro to Management"
   },
-  "skills": "Java, Python, C, C++, TypeScript, NodeJS, ReactJS, GraphQL, JavaScript, React Native, HTML, CSS, XML, SQL, MongoDB, Git",
+  "skills": "Java, Python, TypeScript, C, C++, NodeJS, ReactJS, GraphQL, JavaScript, React Native, HTML, CSS, SQL, MongoDB, Git",
   "experience": [
     {
       "title": "Append",
