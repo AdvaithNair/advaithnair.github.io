@@ -14,7 +14,7 @@ const Me: React.FC = () => {
           <img className="header-img" src={Headshot} alt="Advaith Nair" />
         </Tooltip>
       </div>
-      <h1 className="text-center">ME</h1>
+      <h1 id = "me" className="text-center">ME</h1>
       <p className="header-bio">
         <i>{about.subtitle}</i>
       </p>

@@ -15,11 +15,35 @@
   "facts": [
     {
       "image": "Age",
-      "description": "I'm 19 years old"
+      "description": ""
     },
     {
       "image": "Lehigh",
       "description": "I go to Lehigh University"
+    },
+    {
+      "image": "CSB",
+      "description": "I study Computer Science and Business"
+    },
+    {
+      "image": "Robot",
+      "description": "I've helped build 7 robots"
+    },
+    {
+      "image": "Artist",
+      "description": "Logic is my favorite musician"
+    },
+    {
+      "image": "Album",
+      "description": "No Pressure is my current favorite album"
+    },
+    {
+      "image": "Game",
+      "description": "The PS4 is my favorite console"
+    },
+    {
+      "image": "Dog",
+      "description": "I have a 3 year old dog named Kulfi"
     }
   ]
 }

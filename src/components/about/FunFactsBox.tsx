@@ -1,5 +1,5 @@
 import React from "react";
-import moment from 'moment';
+import moment from "moment";
 
 interface Props {
   image: string;
@@ -13,10 +13,16 @@ const FunFactsBox: React.FC<Props> = ({ image, description }) => {
 
   if (!isAge) imageFile = require(`../../images/About/Facts/${image}.png`);
   else {
-    age = moment().diff(moment('20010724', 'YYYYMMDD'), 'years')
+    age = moment().diff(moment("20010724", "YYYYMMDD"), "years");
     description = `I'm ${age} years old`;
   }
-  
+
+  if (image === "Dog")
+    description = `I have a ${moment().diff(
+      moment("20170625", "YYYYMMDD"),
+      "years"
+    )} year old dog named Kulfi`;
+
   return (
     <div className="skill-box">
       {!isAge ? (
