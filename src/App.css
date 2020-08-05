@@ -78,6 +78,39 @@ body, html {
     margin-top: 170px;
 }
 
+.age-box {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.age-box:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.age h1 {
+    margin: 0;
+}
+
+.age {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #1677CB;
+    color: white;
+    font-size: 50px;
+    line-height: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .film-playlist {
     position: absolute;
     top: 0;
@@ -128,6 +161,10 @@ body, html {
 .App {
     width: 80%;
     margin: 0 auto;
+}
+
+.header {
+    margin-top: 60px;
 }
 
 .header-img-container {
@@ -456,6 +493,14 @@ nav a.active, .art-nav a:active {
     }
 }
 
+@media screen and (max-width: 450px) {
+    .art-header-content h1 {
+        font-size: 30px;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .main-title {
         width: 100%;
@@ -467,15 +512,17 @@ nav a.active, .art-nav a:active {
         width: 200px;
         height: 200px;
     }
-    .art-header-content h1 {
-        font-size: 30px;
-        margin-top: 40px;
-        margin-left: 10px;
-    }
 }
 
 @media screen and (max-width: 350px) {
     .art-header-content h1 {
         display: none;
+    }
+}
+
+@media screen and (max-width: 270px) {
+    .header-img, .header-img-container {
+        width: 140px;
+        height: 140px;
     }
 }

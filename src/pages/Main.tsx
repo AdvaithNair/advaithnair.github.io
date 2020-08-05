@@ -13,7 +13,7 @@ const Main: React.FC = () => {
         </div>
       </div>
       <div className="menu-container">
-        <div className="menu-item">
+        <div className="menu-item" onClick={() => history.push("/about")}>
           <p>About</p>
         </div>
         <div className="menu-item" onClick={() => history.push("/code")}>

@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../../content/about.json";
+import about from "../../content/about/about.json";
 import { openLink } from "../../types";
 
 const About: React.FC = () => {

@@ -1,4 +1,5 @@
 {
+  "subtitle": "Hi I'm Advaith and I make cool stuff.",
   "bio": "",
   "list": [
     "I'm a Full Stack Developer.",
@@ -10,5 +11,15 @@
     "I've helped build 7 robots.",
     "I have a dog (his name is Kulfi).",
     "I have a cooler website."
+  ],
+  "facts": [
+    {
+      "image": "Age",
+      "description": "I'm 19 years old"
+    },
+    {
+      "image": "Lehigh",
+      "description": "I go to Lehigh University"
+    }
   ]
 }
