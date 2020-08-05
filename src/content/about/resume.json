@@ -4,5 +4,56 @@
     "graduation": "May 2022",
     "degree": "Bachelor of Science (B.S.) in Computer Science & Business (CSB)",
     "courses": "Data Structures and Algorithms, Java Programming, Discrete Math, Statistics, Linear Algebra, Intro to Management"
-  }
+  },
+  "skills": "Java, Python, C, C++, TypeScript, NodeJS, ReactJS, GraphQL, JavaScript, React Native, HTML, CSS, XML, SQL, MongoDB, Git",
+  "experience": [
+    {
+      "title": "Append",
+      "type": "Independent Project",
+      "website": "",
+      "date": "June 2020 – Present",
+      "content": [
+        "Creating full stack universal contact sharing app with easy link sharing and fields for popular social media accounts.",
+        "Designing web and mobile apps using NextJS and React Native to use server-side rendering for user link previews.",
+        "Assembling API using Type GraphQL for smooth integration with TypeORM, interacting with PostgreSQL database.",
+        "Storing user-generated profile pictures on Google Cloud Storage buckets and AWS S3 for secure cloud storage.",
+        "Testing API resolvers and endpoints using Jest to ensure code is intact and operational with maximum efficiency.",
+        "Leveraging sessions, PassportJS with Google and Facebook OAuth, and Redis cache to create a secure user system."
+      ]
+    },
+    {
+      "title": "RANT",
+      "type": "Independent Project",
+      "website": "github.com/AdvaithNair/rant",
+      "date": "April 2020 – June 2020",
+      "content": [
+        "Produced full stack social media website where users can rant about any topic, publicly, privately, or anonymously.",
+        "Applied ReactJS hooks with TypeScript to create an efficient frontend cache and to speed up project development.",
+        "Optimized Firebase tools for file storage, authentication, and database for user, post, and notification operations.",
+        "Deployed NodeJS REST API on Google Cloud Functions to optimize cost with on-demand serverless hosting."
+      ]
+    },
+    {
+      "title": "Aglet",
+      "type": "Independent Project",
+      "website": "github.com/AdvaithNair/aglet",
+      "date": "April 2020 – April 2020",
+      "content": [
+        "Constructed full stack sneaker wish-list website featuring ability to create, update, and delete sneaker listings.",
+        "Adapted Apollo client for ReactJS to create a single-page web app that could execute GraphQL API requests.",
+        "Built NodeJS GraphQL server with MongoDB storage for efficient queries and quick retrieval of sneaker data.",
+        "Implemented sorting entries by variables with algorithms such as radix and merge sort for enhanced performance."
+      ]
+    },
+    {
+      "title": "Relic Recovery Robotics Scouting Analytics App",
+      "type": "Independent Project",
+      "website": "",
+      "date": "September 2017 – April 2018",
+      "content": [
+        "Created Android data analytics app allowing users to leverage robotics match scores to produce a ranked list of the strongest teams to pick for alliance selections, with 140+ downloads and a 4.94-star rating on Google Play Store.",
+        "Utilized SQLite database to store match data and Java to process data and compile CSV file of ranked data."
+      ]
+    }
+  ]
 }

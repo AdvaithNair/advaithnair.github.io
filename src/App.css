@@ -454,14 +454,21 @@ nav a.active, .art-nav a:active {
 }
 
 .resume-section {
+    margin-top: 40px;
     border-bottom: 3px solid black;
 }
 
-.education p {
+.resume-parts p, .bullet-points li {
     padding: 5px 0px;
 }
 
-.side-by-side {}
+.website-link {
+    color: #1677CB;
+}
+
+.bullet-points {
+    margin-left: 40px;
+}
 
 .left-element {
     float: left;
