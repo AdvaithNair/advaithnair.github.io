@@ -12,7 +12,7 @@ interface Props {
 
 const ProjectBox: React.FC<Props> = ({ data }) => {
   const imageTitle: string =
-    data.title === "FTC Relic Recovery Scouting" ? "FRRS" : data.title;
+    data.title === "Robotics Scouting" ? "FRRS" : data.title;
   const logo: string = require(`../../images/Projects/${imageTitle}-logo.png`);
   const app: string = require(`../../images/Projects/${imageTitle}-app.png`);
 

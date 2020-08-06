@@ -164,7 +164,7 @@ body, html {
 }
 
 .header {
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 .header-img-container {
@@ -190,6 +190,17 @@ body, html {
     border: solid 5px #1677CB;
     background-image: linear-gradient(white, white), radial-gradient(circle at top left, #F012BE, #39CCCC);
     background-origin: border-box;
+}
+
+.name-intro {
+    border: 5px solid;
+    border-color: #1677CB white #8E8E8E;
+    margin-top: 70px;
+}
+
+.name-intro h1 {
+    font-size: 50px;
+    margin: 25px;
 }
 
 .art-header {
@@ -398,8 +409,30 @@ nav a.active, .art-nav a:active {
     width: 10%;
 }
 
-.project-box {
+.project-box, .welcome-box {
     width: 45%;
+}
+
+.welcome-box {
+    padding: 10px;
+    margin: 10px;
+}
+
+.welcome-box p {
+    padding: 10px;
+}
+
+.welcome-box li {
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.welcome-image {
+    object-fit: cover;
+    object-position: 0 0;
+    overflow:hidden;
+    width: 100%;
+    height: 600px;
 }
 
 .social-box {
@@ -411,10 +444,14 @@ nav a.active, .art-nav a:active {
     box-shadow: 0px 0px 5px 3px #3F3F3F;
 }
 
-.skill-image {
+.skill-image, .social-image {
     width: 60%;
     display: flex;
     margin: 0 auto;
+}
+
+.social-image {
+    max-width: 75px;
 }
 
 .footer {
@@ -428,7 +465,7 @@ nav a.active, .art-nav a:active {
 }
 
 .button {
-    width: 100px;
+    width: 150px;
     margin: 10px auto;
     margin-top: 20px;
     padding: 10px;
@@ -498,7 +535,7 @@ nav a.active, .art-nav a:active {
 }
 
 @media screen and (max-width: 1000px) {
-    .project-box {
+    .project-box, .welcome-box {
         width: 90%;
     }
 }

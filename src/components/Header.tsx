@@ -44,10 +44,15 @@ const Header: React.FC<Props> = ({ title, logo, tabs }) => {
     setAnchorEl(null);
   };
 
+  const handleHome = () => {
+    history.push('/');
+    document.getElementById(current)!.style.color = "black";
+  }
+
   return (
     <div className="art-header">
       <div className="art-header-content">
-        <div onClick={() => history.push("/")}>
+        <div onClick={handleHome}>
           <Tooltip title="Home">
             <img className="art-header-img" src={logo} alt="Advaith Arts" />
           </Tooltip>

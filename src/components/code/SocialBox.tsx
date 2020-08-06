@@ -14,7 +14,7 @@ const SocialBox: React.FC<Props> = ({ social }) => {
         <img
           src={image}
           alt={social.name}
-          className="skill-image"
+          className="social-image"
           onClick={() => openLink(social.link)}
         ></img>
       </div>

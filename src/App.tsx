@@ -9,6 +9,7 @@ import MainLogo from "./images/Logos/AdvaithLogo.png";
 import Me from "./components/about/Me";
 import Logos from "./components/arts/Logos";
 import Films from "./components/arts/Films";
+import Home from "./components/Home";
 
 const App: React.FC = () => {
   return (
@@ -20,7 +21,7 @@ const App: React.FC = () => {
       />
       <div className="App">
         <Switch>
-          <Route exact path="/" component={Me} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/about" component={Me} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/tech" component={Tech} />

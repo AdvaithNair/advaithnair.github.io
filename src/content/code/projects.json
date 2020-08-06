@@ -88,10 +88,10 @@
       }
     },
     {
-      "title": "FTC Relic Recovery Scouting",
+      "title": "Robotics Scouting",
       "current": false,
       "date": "September 2017 - April 2018",
-      "description": "Robotics Data Analytics Platform",
+      "description": "FIRST Robotics Data Analytics Platform",
       "site": "https://play.google.com/store/apps/details?id=overcharged.nair.advaith.relicrecoveryscouting&hl=en_US",
       "about": "FTC Relic Recovery Scouting is an application for robotics students to enter robot match data to generate a ranked list of teams to ally with.",
       "tech": {
