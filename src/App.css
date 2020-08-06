@@ -175,7 +175,7 @@ body, html {
     margin: 0 auto;
 }
 
-.header-img-container:hover {
+.header-img-container:hover, .art-nav-items a:hover, .art-header-img:hover {
     cursor: pointer;
 }
 
@@ -503,7 +503,7 @@ nav a.active, .art-nav a:active {
     }
 }
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 950px) {
     .main-title h1 {
         padding: 20px;
     }
@@ -528,7 +528,7 @@ nav a.active, .art-nav a:active {
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 475px) {
     .art-header-content h1 {
         font-size: 30px;
         margin-top: 40px;
@@ -549,7 +549,7 @@ nav a.active, .art-nav a:active {
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
     .art-header-content h1 {
         display: none;
     }

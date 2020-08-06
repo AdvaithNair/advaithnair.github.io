@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router";
+import { useLocation } from "react-router-dom";
 import Tooltip from "@material-ui/core/Tooltip";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
@@ -14,13 +15,32 @@ interface Props {
 
 const Header: React.FC<Props> = ({ title, logo, tabs }) => {
   const history = useHistory();
+  const location = useLocation();
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+  const [current, setCurrent] = useState<string>(
+    location.pathname.substring(1)
+  );
+
+  useEffect(() => {
+    if(location.pathname.substring(1))
+      document.getElementById(location.pathname.substring(1))!.style.color =
+        "#1677CB";
+  }, [location.pathname]);
 
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
   };
 
   const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const handleTab = (item: string) => {
+    history.push(`/${item}`);
+    if (current !== item && current !== "")
+      document.getElementById(current)!.style.color = "black";
+    document.getElementById(item)!.style.color = "#1677CB";
+    setCurrent(item);
     setAnchorEl(null);
   };
 
@@ -41,7 +61,7 @@ const Header: React.FC<Props> = ({ title, logo, tabs }) => {
           </div>
           <div className="art-nav-items">
             {tabs.map((item: string, index: number) => (
-              <a key={index} href={`#${item}`}>
+              <a id={item} key={index} onClick={() => handleTab(item)}>
                 {item}
               </a>
             ))}
@@ -61,7 +81,7 @@ const Header: React.FC<Props> = ({ title, logo, tabs }) => {
             <ClickAwayListener onClickAway={handleClose}>
               <div className="art-mobile-items">
                 {tabs.map((item: string, index: number) => (
-                  <a key={index} href={`#${item}`} onClick={handleClose}>
+                  <a id={item} key={index} onClick={() => handleTab(item)}>
                     {item}
                   </a>
                 ))}
