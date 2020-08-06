@@ -1,6 +1,7 @@
 export interface Project {
     title: string;
     description: string;
+    date: string;
     repo?: string;
     site?: string;
     about?: string;

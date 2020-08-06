@@ -45,6 +45,9 @@ const ProjectBox: React.FC<Props> = ({ data }) => {
       <p className="project-description">
         <i>{data.description}</i>
       </p>
+      <p className="project-date">
+        <b>{data.date}</b>
+      </p>
       <div className="button" onClick={() => setOpen(true)}>
         <p className="text-center">More</p>
       </div>

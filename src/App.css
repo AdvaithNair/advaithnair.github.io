@@ -353,6 +353,12 @@ nav a.active, .art-nav a:active {
     margin-top: 20px;
 }
 
+.project-date {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
 .github-icon {
     float: right;
     position: absolute;
