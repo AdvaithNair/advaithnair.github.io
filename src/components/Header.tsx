@@ -6,6 +6,7 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import Popover from "@material-ui/core/Popover";
 import ClickAwayListener from "@material-ui/core/ClickAwayListener";
+import { openLink } from "../types";
 
 interface Props {
   title: string;
@@ -46,7 +47,8 @@ const Header: React.FC<Props> = ({ title, logo, tabs }) => {
 
   const handleHome = () => {
     history.push('/');
-    document.getElementById(current)!.style.color = "black";
+    if(document.getElementById(current))
+      document.getElementById(current)!.style.color = "black";
   }
 
   return (
@@ -54,10 +56,10 @@ const Header: React.FC<Props> = ({ title, logo, tabs }) => {
       <div className="art-header-content">
         <div onClick={handleHome}>
           <Tooltip title="Home">
-            <img className="art-header-img" src={logo} alt="Advaith Arts" />
+            <img className="art-header-img" src={logo} alt="Advaith Nair" />
           </Tooltip>
         </div>
-        <h1>{title}</h1>
+        <h1 className="pointer" onClick={() => openLink("https://advaithnair.com")}>{title}</h1>
         <div className="art-nav">
           <div className="art-mobile">
             <IconButton style={{ color: "black" }} onClick={handleClick}>

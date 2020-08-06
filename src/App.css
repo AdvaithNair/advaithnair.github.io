@@ -33,6 +33,7 @@ h1 {
 
 h2 {
     margin: 10px 0px;
+    margin-top: 30px;
 }
 
 .text-center {
@@ -175,7 +176,7 @@ body, html {
     margin: 0 auto;
 }
 
-.header-img-container:hover, .art-nav-items a:hover, .art-header-img:hover {
+.header-img-container:hover, .art-nav-items a:hover, .art-header-img:hover, .pointer {
     cursor: pointer;
 }
 
