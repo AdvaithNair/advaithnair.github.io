@@ -16,10 +16,10 @@ const Home: React.FC = () => {
       <h1 className="text-center">WELCOME</h1>
       <div className="flex-container">
         <div className="welcome-box">
-            <img src={Welcome} className='welcome-image'/>
+            <img src={Welcome} alt="Advaith On A Tree" className='welcome-image'/>
         </div>
         <div className="welcome-box">
-            <h2>{welcome.title}</h2>
+            <h2 className="text-center" style={{ margin: '10px 0px' }}>{welcome.title}</h2>
             <p>{welcome.bio}</p>
             {welcome.list.map((element: string, index: number) => (
               <li key={index}>{element}</li>

@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# lol
+/src/content/about/resume.json
+
 # testing
 /coverage
 

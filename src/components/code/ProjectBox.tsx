@@ -21,7 +21,9 @@ const ProjectBox: React.FC<Props> = ({ data }) => {
     <div className="project-box">
       {/*style={{backgroundColor: data.current ? "#1677CB" : "#181818"}}*/}
       <div className="project-title">
-        <h2 className="text-center">{data.title}</h2>
+        <h2 className="text-center" style={{ margin: '10px 0px' }}>
+          {data.title}
+        </h2>
         <Tooltip title={data.current ? "In Progress" : "Completed"}>
           <img
             src={data.current ? InProgressIcon : CompleteIcon}

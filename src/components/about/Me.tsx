@@ -3,7 +3,8 @@ import { useHistory } from "react-router";
 import Tooltip from "@material-ui/core/Tooltip";
 import about from "../../content/about/about.json";
 import FunFactsBox from "./FunFactsBox";
-const Headshot = require("../../images/Headshot.JPG");
+import Secret from '../code/Secret';
+import Headshot from '../../images/Headshot.jpg';
 
 const Me: React.FC = () => {
   const history = useHistory();
@@ -29,6 +30,7 @@ const Me: React.FC = () => {
           />
         ))}
       </div>
+      <Secret />
     </div>
   );
 };

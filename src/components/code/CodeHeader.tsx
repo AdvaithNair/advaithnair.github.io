@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router";
 import Tooltip from "@material-ui/core/Tooltip";
-const Headshot = require("../../images/Headshot.JPG");
+import Headshot from "../../images/Headshot.jpg";
 
 const CodeHeader: React.FC = () => {
   const history = useHistory();
