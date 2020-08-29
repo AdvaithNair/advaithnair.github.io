@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3eb0dc96.chunk.css",
-    "main.js": "/static/js/main.2730901c.chunk.js",
-    "main.js.map": "/static/js/main.2730901c.chunk.js.map",
+    "main.css": "/static/css/main.2857667c.chunk.css",
+    "main.js": "/static/js/main.ecda8695.chunk.js",
+    "main.js.map": "/static/js/main.ecda8695.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.223301a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.223301a1.js.map",
     "static/js/2.7b0fbd1b.chunk.js": "/static/js/2.7b0fbd1b.chunk.js",
     "static/js/2.7b0fbd1b.chunk.js.map": "/static/js/2.7b0fbd1b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cc97b0c5d05f7c972beabf841a6f56cb.js": "/precache-manifest.cc97b0c5d05f7c972beabf841a6f56cb.js",
+    "precache-manifest.2e53cc184248ea78c31bbf77bdd0dbe9.js": "/precache-manifest.2e53cc184248ea78c31bbf77bdd0dbe9.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3eb0dc96.chunk.css.map": "/static/css/main.3eb0dc96.chunk.css.map",
+    "static/css/main.2857667c.chunk.css.map": "/static/css/main.2857667c.chunk.css.map",
     "static/js/2.7b0fbd1b.chunk.js.LICENSE.txt": "/static/js/2.7b0fbd1b.chunk.js.LICENSE.txt",
     "static/media/AdvaithLogo.png": "/static/media/AdvaithLogo.2b23b3e7.png",
     "static/media/Aglet-app.png": "/static/media/Aglet-app.25e242fa.png",
@@ -68,7 +68,7 @@
   "entrypoints": [
     "static/js/runtime-main.223301a1.js",
     "static/js/2.7b0fbd1b.chunk.js",
-    "static/css/main.3eb0dc96.chunk.css",
-    "static/js/main.2730901c.chunk.js"
+    "static/css/main.2857667c.chunk.css",
+    "static/js/main.ecda8695.chunk.js"
   ]
 }
