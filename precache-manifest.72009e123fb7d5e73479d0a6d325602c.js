@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b1f773b6bce71e2c0a69f80a81727137",
+    "revision": "18fbb74a9dacfe88c13617767533da57",
     "url": "/index.html"
   },
   {
-    "revision": "8155d9746f4766124c22",
-    "url": "/static/css/main.8926a197.chunk.css"
+    "revision": "c7b30525786e8f9cfce4",
+    "url": "/static/css/main.d5df3ab5.chunk.css"
   },
   {
-    "revision": "afbdb1ea4eca19abf176",
-    "url": "/static/js/2.cc0f32fa.chunk.js"
+    "revision": "dcd1740237ded183f6fe",
+    "url": "/static/js/2.7b0fbd1b.chunk.js"
   },
   {
     "revision": "89b0379e7bcda1a468d8b0343aeb4e53",
-    "url": "/static/js/2.cc0f32fa.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.7b0fbd1b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8155d9746f4766124c22",
-    "url": "/static/js/main.691f7414.chunk.js"
+    "revision": "c7b30525786e8f9cfce4",
+    "url": "/static/js/main.fdd512f7.chunk.js"
   },
   {
     "revision": "8cdf164702af695058ba",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6bf87a5443a39b803a44d001caf58606",
     "url": "/static/media/Aglet.6bf87a54.png"
+  },
+  {
+    "revision": "d1e90b8886f2ade309eb6e9ee2876a6e",
+    "url": "/static/media/AgletLogo.d1e90b88.png"
   },
   {
     "revision": "71785a3f18e33a5edfdd50a4910444ab",
@@ -218,6 +222,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f2ac97c8a4efaa3dd83e34104cd97130",
     "url": "/static/media/RANT.f2ac97c8.png"
+  },
+  {
+    "revision": "7706a148c44370b2b7c67f6dca4ed93b",
+    "url": "/static/media/RANTLogo.7706a148.png"
   },
   {
     "revision": "84a3ad4a25dd5ceb003cacf416f73a12",
