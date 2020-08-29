@@ -1,0 +1,28 @@
+{
+  "RANTS": [
+    {
+      "title": "What is RANT?",
+      "body": "RANT is a social media application I made by myself this summer out of pure boredom. I wanted to make a social media app because it would be fun, and during that time I also really wanted to rant to a lot of my friends. I didn't want to go through the hassle of creating a group chat for all of it, so I just... made an app, in typical Advaith fashion.",
+      "likeCount": 42,
+      "commentCount": 16,
+      "createdAt": "2020-07-24T21:48:00.000Z",
+      "isPrivate": false
+    },
+    {
+      "title": "What's special about it?",
+      "body": "Funny that you ask. Let me explain. It's a cool app that I made with the primary feature being simplicity. It's a clean UI where you can type a title, body, and select privacy settings and you're done! Speaking of, privacy settings are a huge deal on RANT. You can post privately to your friends (different from followers), and you can also post anonymously, so you can RANT your beliefs away without attaching your real life identity to things. This is honestly my favorite part about RANT.",
+      "likeCount": 35,
+      "commentCount": 12,
+      "createdAt": "2020-07-13T10:55:00.000Z",
+      "isPrivate": false
+    },
+    {
+        "title": "What tech stack did you use?",
+        "body": "General:\\\\nXXREST API\\\\nXXPostman\\\\nFrontend:\\\\nXXTypeScript\\\\nXXReactJS\\\\nXXReact Context API\\\\nXXMaterial UI\\\\nXXAxios\\\\nXXDayJS\\\\nXXJSON Web Tokens\\\\nXXFirebase Hosting\\\\nBackend:\\\\nXXTypeScript\\\\nXXNodeJS\\\\nXXExpressJS\\\\nXXFirebase Cloud Functions (Serverless API Deployment)\\\\nXXFirebase Cloud Firestore (NoSQL Database)\\\\nXXFirebase Cloud Storage (Bucket Storage)",
+        "likeCount": 241,
+        "commentCount": 788,
+        "createdAt": "2020-06-19T13:10:00.000Z",
+        "isPrivate": true
+      }
+  ]
+}

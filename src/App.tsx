@@ -10,6 +10,8 @@ import Me from "./components/about/Me";
 import Logos from "./components/arts/Logos";
 import Films from "./components/arts/Films";
 import Home from "./components/Home";
+import Rant from "./pages/Rant";
+import Aglet from "./pages/Aglet";
 
 const App: React.FC = () => {
   return (
@@ -24,6 +26,8 @@ const App: React.FC = () => {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={Me} />
           <Route exact path="/projects" component={Projects} />
+          <Route exact path="/projects/rant" component={Rant} />
+          <Route exact path="/projects/aglet" component={Aglet} />
           <Route exact path="/tech" component={Tech} />
           <Route exact path="/logos" component={Logos} />
           <Route exact path="/films" component={Films} />

@@ -1,0 +1,28 @@
+{
+  "Aglet": [
+    {
+      "title": "Aglet?",
+      "body": "Yup. Aglet. The dictionary definition of the word Aglet is \"a metal or plastic tube fixed tightly around each end of a shoelace.\" If you watched Phineas and Ferb, you probably knew this already. This was just a fun name I made, because it was shoe related for a shoe-based product. Cool, right?",
+      "price": "$225.00"
+    },
+    {
+      "title": "But Why?",
+      "body": "This was just a tester app for me to launch myself into full stack development. I don't think it's special by any means. It's a cool little project with some average CSS, but nothing good. I used class-based React components and JavaScript, so I'm not entirely proud of this one. But I learned quite a lot from this project. The jump from Aglet to RANT was quite impressive if I'm going to be honest, so clearly in that time, I learned a good amount.",
+      "price": "$199.99"
+    },
+    {
+      "title": "Stack?",
+      "body": "",
+      "price": "$342.78",
+      "general": ["GraphQL API"],
+      "frontend": ["JavaScript", "ReactJS", "Material UI", "Apollo Client"],
+      "backend": [
+        "JavaScript",
+        "NodeJS",
+        "Apollo Server",
+        "Prisma GraphQL Yoga Server",
+        "MongoDB"
+      ]
+    }
+  ]
+}

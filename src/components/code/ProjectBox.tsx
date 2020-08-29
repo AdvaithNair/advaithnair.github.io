@@ -5,6 +5,7 @@ import CompleteIcon from "../../images/Icons/Complete.png";
 import { Project, openLink } from "../../types";
 import Tooltip from "@material-ui/core/Tooltip";
 import Dialog from "@material-ui/core/Dialog";
+import { useHistory } from "react-router";
 
 interface Props {
   data: Project;
@@ -15,13 +16,14 @@ const ProjectBox: React.FC<Props> = ({ data }) => {
     data.title === "Robotics Scouting" ? "FRRS" : data.title;
   const logo: string = require(`../../images/Projects/${imageTitle}-logo.png`);
   const app: string = require(`../../images/Projects/${imageTitle}-app.png`);
+  const history = useHistory();
 
   const [open, setOpen] = useState<boolean>(false);
   return (
     <div className="project-box">
       {/*style={{backgroundColor: data.current ? "#1677CB" : "#181818"}}*/}
       <div className="project-title">
-        <h2 className="text-center" style={{ margin: '10px 0px' }}>
+        <h2 className="text-center" style={{ margin: "10px 0px" }}>
           {data.title}
         </h2>
         <Tooltip title={data.current ? "In Progress" : "Completed"}>
@@ -50,7 +52,18 @@ const ProjectBox: React.FC<Props> = ({ data }) => {
       <p className="project-date">
         <b>{data.date}</b>
       </p>
-      <div className="button" onClick={() => setOpen(true)}>
+      <div
+        className="button"
+        onClick={() => {
+          if (data.title === "RANT") {
+            history.push("/projects/rant");
+          } else if (data.title === "Aglet") {
+            history.push("/projects/aglet");
+          } else {
+            setOpen(true);
+          }
+        }}
+      >
         <p className="text-center">More</p>
       </div>
       <Dialog open={open} onClose={() => setOpen(false)}>

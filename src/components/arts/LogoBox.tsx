@@ -12,8 +12,8 @@ const LogoBox: React.FC<Props> = ({ logo, isIcon }) => {
     : require(`../../images/Arts/Logos/Full/${logo}.png`);
   return (
     <Tooltip title={logo}>
-      <div className="logo-box">
-        <img src={image} alt={logo} className="logo-image"></img>
+      <div className={isIcon ? "icon-box" : "logo-box"}>
+        <img src={image} alt={logo} className={"logo-image"}></img>
       </div>
     </Tooltip>
   );

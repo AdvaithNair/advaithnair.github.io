@@ -1,0 +1,214 @@
+.edit-name, .edit-price {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 1.5em;
+    background-color: #FF2929;
+    border: none;
+    border-bottom: 4px solid #FFDC00;
+    margin-bottom: 35px;
+}
+
+.edit-name {
+    float: left;
+    width: 40%;
+}
+
+.edit-price {
+    float: right;
+    width: 20%;
+    text-align: right;
+}
+
+.edit-color {
+    background-color: #FF2929;
+    border: none;
+    border-bottom: 4px solid #FFDC00;
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.item {
+    background-color: #FF2929;
+    border-radius: 30px;
+    padding: 0px;
+    margin: 50px 0px;
+    display: flex;
+    border: 5px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.2s ease;
+}
+
+.item:hover {
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.7);
+}
+
+.content {
+    width: 75vw;
+    margin: 15px auto;
+    padding: 15px;
+    display: inline-block;
+}
+
+.primary-info {
+    margin-top: -10px;
+    width: auto;
+}
+
+.item-rank {
+    background-color: #FFDC00;
+    padding: 5px;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.item-rank h1 {
+    text-align: center;
+    margin-top: 6px;
+}
+
+.item-info {
+    display: block;
+}
+
+.item-name {
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.item-price {
+    margin-top: 10px;
+    float: right;
+}
+
+.clear-primary {
+    clear: both;
+}
+
+.secondary-info {
+    margin-top: 10px;
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: -30px;
+}
+
+.secondary-table {
+    float: left;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.button-array {
+    float: right;
+    margin-right: -12px;
+    margin-top: -20px;
+}
+
+th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.update-button {
+    border: none;
+    height: 40px;
+    width: 120px;
+    margin-top: 10px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-button, .edit-button {
+    border: none;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    transition: background-color 0.2s ease;
+}
+
+.list-button:hover {
+    cursor: pointer;
+    background: #FFDC00;
+}
+
+.update-button:hover, .list-button:hover, .edit-button:hover {
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.7);
+}
+
+.in-button {
+    margin-top: 2px;
+}
+
+.tabs {
+    background-color: #CCCCCC;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tab-list {
+    border: none;
+    display: flex;
+}
+
+.tab {
+    border: none;
+    width: 20%;
+    list-style: none;
+    margin-top: 8px;
+}
+
+.sort-select, .sort-not-selected {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin: 0 auto;
+    margin-top: -5px;
+}
+
+.sort-select {
+    background-color: grey;
+}
+
+.sort-not-selected:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sort-not-selected {
+    background-color: #ADADAD;
+}
+
+.in-div {
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 650px) {
+    .item-name, .item-price {
+        font-size: 30px;
+    }
+    .secondary-info {
+        display: block;
+    }
+    .secondary-table {
+        float: left;
+    }
+    .button-array {
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .tabs {
+        width: 100%;
+    }
+}

@@ -19,13 +19,13 @@ const Header: React.FC<Props> = ({ title, logo, tabs }) => {
   const location = useLocation();
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const [current, setCurrent] = useState<string>(
-    location.pathname.substring(1)
+    location.pathname.substring(1).split("/")[0]
   );
 
   useEffect(() => {
-    if(location.pathname.substring(1))
-      document.getElementById(location.pathname.substring(1))!.style.color =
-        "#1677CB";
+    const pathString: string = location.pathname.substring(1).split("/")[0];
+    if (pathString)
+      document.getElementById(pathString)!.style.color = "#1677CB";
   }, [location.pathname]);
 
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -46,10 +46,10 @@ const Header: React.FC<Props> = ({ title, logo, tabs }) => {
   };
 
   const handleHome = () => {
-    history.push('/');
-    if(document.getElementById(current))
+    history.push("/");
+    if (document.getElementById(current))
       document.getElementById(current)!.style.color = "black";
-  }
+  };
 
   return (
     <div className="art-header">
@@ -59,7 +59,12 @@ const Header: React.FC<Props> = ({ title, logo, tabs }) => {
             <img className="art-header-img" src={logo} alt="Advaith Nair" />
           </Tooltip>
         </div>
-        <h1 className="pointer" onClick={() => openLink("https://advaithnair.com")}>{title}</h1>
+        <h1
+          className="pointer"
+          onClick={() => openLink("https://advaithnair.com")}
+        >
+          {title}
+        </h1>
         <div className="art-nav">
           <div className="art-mobile">
             <IconButton style={{ color: "black" }} onClick={handleClick}>
