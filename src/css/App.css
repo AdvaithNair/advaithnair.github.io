@@ -58,7 +58,7 @@ body, html {
 }
 
 .main-cover {
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 1)), url("./images/Cover.jpg");
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 1)), url("../images/Cover.jpg");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: top;
@@ -184,7 +184,7 @@ body, html {
     margin: 0 auto;
 }
 
-.header-img-container:hover, .art-nav-items a:hover, .art-header-img:hover, .pointer {
+.header-img-container:hover, .art-nav-items a:hover, .art-header-img:hover, .pointer, #needs-hover {
     cursor: pointer;
 }
 
@@ -548,11 +548,13 @@ nav a.active, .art-nav a:active {
 }
 
 #rant-image-project {
-    width: 80%;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .bullet-points-general {
     margin-left: 20px;
+    text-align: left;
 }
 
 @media screen and (max-width: 1200px) {

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Listing from "../components/projects/Aglet/Listing";
 import aglet from "../content/projects/Aglet.json";
 import { AgletData } from "../types";
@@ -7,6 +7,10 @@ import AgletLogo from "../images/Aglet/AgletLogo.png";
 import AgletApp from "../images/Aglet/Aglet-app.png";
 
 const Aglet: React.FC = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   return (
     <div>
       <img

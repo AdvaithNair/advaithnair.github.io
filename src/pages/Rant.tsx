@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import RantLogo from "../images/RANT/RANTLogo.png";
 import RantApp from "../images/RANT/RANT-app.png";
 import Post from "../components/projects/RANT/Post";
@@ -7,6 +7,10 @@ import { RantData, openLink } from "../types";
 import SearchBar from "../components/projects/RANT/SearchBar";
 
 const Rant: React.FC = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div>
       <img src={RantLogo} alt={"Rant Logo"} className="project-landing"></img>

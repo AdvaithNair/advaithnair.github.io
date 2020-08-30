@@ -38,6 +38,16 @@ export interface AgletData {
     backend?: Array<string>;
 }
 
+export interface AppendData {
+    title: string;
+    bio: string;
+    body: string;
+    color: string;
+    general?: Array<string>;
+    frontend?: Array<string>;
+    backend?: Array<string>;
+}
+
 export const openLink = (url: string): void => {
   const win = window.open(url, "_blank");
   win!.focus();

@@ -28,7 +28,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build --remote site"
+    "deploy": "gh-pages -d build --remote site",
+    "push": "git push site master",
+    "pull": "git pull site master"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -40,6 +40,7 @@ const ProjectBox: React.FC<Props> = ({ data }) => {
               src={GitHubIcon}
               alt="GitHub"
               className="github-icon"
+              id="needs-hover"
               onClick={() => openLink(data.repo ? data.repo : "")}
             ></img>
           </Tooltip>
@@ -55,12 +56,10 @@ const ProjectBox: React.FC<Props> = ({ data }) => {
       <div
         className="button"
         onClick={() => {
-          if (data.title === "RANT") {
-            history.push("/projects/rant");
-          } else if (data.title === "Aglet") {
-            history.push("/projects/aglet");
-          } else {
+          if (data.title === "Robotics Scouting") {
             setOpen(true);
+          } else {
+            history.push(`/projects/${data.title.toLowerCase()}`);
           }
         }}
       >

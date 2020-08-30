@@ -1,0 +1,51 @@
+{
+  "Append": [
+    {
+      "title": "Advaith Nair",
+      "bio": "A Contacts Application",
+      "body": "Append is intended to be an application to make contacts easier to distribute, especially in this increasingly digital world. It uses link sharing to quickly generate and share contact cards to your friends, employers, and others. Also as a side note, the other cards feature some of my idols in the tech industry.",
+      "color": "#2ECC40"
+    },
+    {
+      "title": "Sundar Pichai",
+      "bio": "Everything in One Place",
+      "body": "This is the right place to have everything for people to contact you. Obviously there's going to be the basics of a contact, such as phone numbers, emails, notes, addresses, etc. There are also plans to integrate many social medias into this as well. Instead of asking around for individual links to the social medias, one Append link solves it all.",
+      "color": "#DB4437"
+    },
+    {
+      "title": "Mark Zuckerberg",
+      "bio": "Public, Private, Business",
+      "body": "Append has a cool little concept with various cards. Usually, people have different contacts they give to different people. For example, you would willingly give your Facebook and Twitter to your friends, but you would hesitate when giving it to an employer. Maybe your closest of close friends could have access to a secret Instagram account you have. You would probably distribute your LinkedIn and Resume to business people. That's why there will be public, private, and business cards in Append. Where this comes to play is when you have various situations to give out your contact cards. For example, if you're at a social gathering a meet someone who you'd be friends with, you can certainly give them your Snapchat and be done with it. However, if by chance you want them to now see your other social medias, no worries! Just send them a generated card link from Append, and they can now add you on every social media you choose! You can also send private cards with more restrictive information that people will not be able to see on your Append profile. This is a cool concept that's still in the works, but could be revolutionary.",
+      "color": "#4267B2"
+    },
+    {
+      "title": "Satya Nadella",
+      "bio": "Tech Stack",
+      "body": "",
+      "color": "#FFB900",
+      "general": ["GraphQL API", "Postman", "Google OAuth", "Facebook OAuth"],
+      "frontend": [
+        "TypeScript",
+        "ReactJS",
+        "React Native",
+        "React Context API",
+        "Material UI",
+        "Apollo Client",
+        "Axios",
+        "JSON Web Tokens"
+      ],
+      "backend": [
+        "TypeScript",
+        "NodeJS",
+        "ExpressJS",
+        "Express Sessions",
+        "PostgreSQL Database",
+        "Redis In-Memory Cache",
+        "Google Cloud Storage (Bucket Storage)",
+        "Type GraphQL",
+        "TypeORM",
+        "PassportJS OAuth Service"
+      ]
+    }
+  ]
+}

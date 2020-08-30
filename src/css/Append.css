@@ -1,0 +1,100 @@
+.card-outline {
+    width: 45%;
+    margin-top: 20px;
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px #3F3F3F;
+    -webkit-transition: box-shadow 0.3s ease;
+    -moz-transition: box-shadow 0.3s ease;
+    -o-transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease;
+}
+
+.card-outline:hover {
+    box-shadow: 0px 0px 5px 3px #3F3F3F;
+}
+
+.card-top {
+    display: flex;
+    padding-bottom: 100;
+    position: relative;
+    padding: 10px;
+}
+
+.card-top-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+    float: left;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    position: relative;
+}
+
+.card-top-text {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.card-top-title {
+    margin: 10px 0px;
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.card-top-bio {
+    color: grey;
+}
+
+.card-profile-img:hover {
+    cursor: pointer;
+}
+
+.card-main {
+    padding: 20px;
+}
+
+.card-body-bio-title {
+    margin-bottom: -15px;
+}
+
+.card-body-main {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 1200px) {
+    .card-top {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .card-top-img {
+        float: none;
+        margin: 0 auto;
+    }
+    .card-top-text {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .card-body-main, .card-body-bio-title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .card-outline {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card-top-img {
+        width: 100px;
+        height: 100px;
+    }
+    .card-top-title {
+        font-size: 30px;
+    }
+}
