@@ -34,6 +34,39 @@
       }
     },
     {
+      "title": "Forrest",
+      "current": false,
+      "date": "September 2020 - September 2020",
+      "description": "Save The Environment",
+      "repo": "https://github.com/AdvaithNair/Forrest",
+      "about": "Forrest is a directions utility that calculates the most energy and environmentally efficient route.",
+      "tech": {
+        "general": ["GraphQL API", "Postman", "Google OAuth", "Facebook OAuth"],
+        "frontend": [
+          "TypeScript",
+          "ReactJS",
+          "React Native",
+          "React Context API",
+          "Material UI",
+          "Apollo Client",
+          "Axios",
+          "JSON Web Tokens"
+        ],
+        "backend": [
+          "TypeScript",
+          "NodeJS",
+          "ExpressJS",
+          "Express Sessions",
+          "PostgreSQL Database",
+          "Redis In-Memory Cache",
+          "Google Cloud Storage (Bucket Storage)",
+          "Type GraphQL",
+          "TypeORM",
+          "PassportJS OAuth Service"
+        ]
+      }
+    },
+    {
       "title": "RANT",
       "current": false,
       "date": "April 2020 - June 2020",

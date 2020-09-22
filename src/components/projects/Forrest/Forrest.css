@@ -1,0 +1,21 @@
+.user-social {
+    width: 40px;
+    height: 40px;
+}
+
+.hover:hover {
+    cursor: pointer;
+}
+
+.social-main-image {
+    display: block;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: solid 5px black;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}

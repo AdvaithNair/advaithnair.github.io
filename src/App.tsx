@@ -13,6 +13,7 @@ import MainLogo from "./images/Logos/AdvaithLogo.png";
 import Aglet from "./pages/Aglet";
 import Append from "./pages/Append";
 import Rant from "./pages/Rant";
+import Forrest from "./pages/Forrest";
 
 const App: React.FC = () => {
   return (
@@ -30,6 +31,7 @@ const App: React.FC = () => {
           <Route exact path="/projects/rant" component={Rant} />
           <Route exact path="/projects/aglet" component={Aglet} />
           <Route exact path="/projects/append" component={Append} />
+          <Route exact path="/projects/forrest" component={Forrest} />
           <Route exact path="/tech" component={Tech} />
           <Route exact path="/logos" component={Logos} />
           <Route exact path="/films" component={Films} />

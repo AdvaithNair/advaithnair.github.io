@@ -1,0 +1,28 @@
+{
+  "resources": [
+    {
+      "title": "What Is Forrest?",
+      "body": "Forrest is a directions utility app that calculates the most energy and environmentally efficient route."
+    },
+    {
+      "title": "Why Was It Made?",
+      "body": "This app was created for the HackMIT 2020 Virtual Hackathon competition in the Urban Innovation track."
+    },
+    {
+      "title": "Who All Made It?",
+      "body": "My friend Dominic Hupp (domhupp.space) and I worked together on this project that we built in 36 hours."
+    },
+    {
+      "title": "What Does Forrest Do?",
+      "body": "Forrest is intended to be used as a utility-social-media hybrid for people to cut down on CO2 Emissions."
+    },
+    {
+      "title": "How Does it Work?",
+      "body": "We used the Google Maps and Directions APIs to generate efficient routes and calucations to derive savings."
+    },
+    {
+      "title": "What Stack Did You Use?",
+      "body": "In typical me fashion, we used React, NodeJS, and PostgreSQL, all using TypeScript, of course."
+    }
+  ]
+}
