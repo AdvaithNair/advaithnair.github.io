@@ -1,144 +1,217 @@
 {
-  "projects": [
-    {
-      "title": "Append",
-      "current": true,
-      "date": "June 2020 - Present",
-      "description": "The Future of Networking",
-      "repo": "https://github.com/AdvaithNair/graphql-api-template",
-      "about": "Append is a platform designed to make sharing ALL contact information extremely convenient through link sharing.",
-      "tech": {
-        "general": ["GraphQL API", "Postman", "Google OAuth", "Facebook OAuth"],
-        "frontend": [
-          "TypeScript",
-          "ReactJS",
-          "React Native",
-          "React Context API",
-          "Material UI",
-          "Apollo Client",
-          "Axios",
-          "JSON Web Tokens"
-        ],
-        "backend": [
-          "TypeScript",
-          "NodeJS",
-          "ExpressJS",
-          "Express Sessions",
-          "PostgreSQL Database",
-          "Redis In-Memory Cache",
-          "Google Cloud Storage (Bucket Storage)",
-          "Type GraphQL",
-          "TypeORM",
-          "PassportJS OAuth Service"
-        ]
-      }
-    },
-    {
-      "title": "Forrest",
-      "current": false,
-      "date": "September 2020 - September 2020",
-      "description": "Save The Environment",
-      "repo": "https://github.com/AdvaithNair/Forrest",
-      "about": "Forrest is a directions utility that calculates the most energy and environmentally efficient route.",
-      "tech": {
-        "general": ["GraphQL API", "Postman", "Google OAuth", "Facebook OAuth"],
-        "frontend": [
-          "TypeScript",
-          "ReactJS",
-          "React Native",
-          "React Context API",
-          "Material UI",
-          "Apollo Client",
-          "Axios",
-          "JSON Web Tokens"
-        ],
-        "backend": [
-          "TypeScript",
-          "NodeJS",
-          "ExpressJS",
-          "Express Sessions",
-          "PostgreSQL Database",
-          "Redis In-Memory Cache",
-          "Google Cloud Storage (Bucket Storage)",
-          "Type GraphQL",
-          "TypeORM",
-          "PassportJS OAuth Service"
-        ]
-      }
-    },
-    {
-      "title": "RANT",
-      "current": false,
-      "date": "April 2020 - June 2020",
-      "description": "The Platform to Vent",
-      "repo": "https://github.com/AdvaithNair/rant",
-      "site": "https://rant-dd853.web.app/",
-      "about": "RANT is a Social Media designed for people to RANT away their frustrations, featuring anonymous, private, and public posting.",
-      "tech": {
-        "general": ["REST API", "Postman"],
-        "frontend": [
-          "TypeScript",
-          "ReactJS",
-          "React Context API",
-          "Material UI",
-          "Axios",
-          "DayJS",
-          "JSON Web Tokens",
-          "Firebase Hosting"
-        ],
-        "backend": [
-          "TypeScript",
-          "NodeJS",
-          "ExpressJS",
-          "Firebase Cloud Functions (Serverless API Deployment)",
-          "Firebase Cloud Firestore (NoSQL Database)",
-          "Firebase Cloud Storage (Bucket Storage)"
-        ]
-      }
-    },
-    {
-      "title": "Aglet",
-      "current": false,
-      "date": "April 2020 - April 2020",
-      "description": "Your Sneaker Collection",
-      "repo": "https://github.com/AdvaithNair/aglet",
-      "about": "Aglet is a sneaker wishlist app, where users can create, update, and delete sneaker listings featuring fast sorting options.",
-      "tech": {
-        "general": ["GraphQL API"],
-        "frontend": [
-          "JavaScript",
-          "ReactJS",
-          "Material UI",
-          "Apollo Client"
-        ],
-        "backend": [
-          "JavaScript",
-          "NodeJS",
-          "Apollo Server",
-          "Prisma GraphQL Yoga Server",
-          "MongoDB"
-        ]
-      }
-    },
-    {
-      "title": "Robotics Scouting",
-      "current": false,
-      "date": "September 2017 - April 2018",
-      "description": "FIRST Robotics Data Analytics Platform",
-      "site": "https://play.google.com/store/apps/details?id=overcharged.nair.advaith.relicrecoveryscouting&hl=en_US",
-      "about": "FTC Relic Recovery Scouting is an application for robotics students to enter robot match data to generate a ranked list of teams to ally with.",
-      "tech": {
-        "general": ["Social Media Marketing"],
-        "frontend": [
-          "Java",
-          "XML",
-          "Android Studio"
-        ],
-        "backend": [
-          "Java",
-          "MySQL"
-        ]
-      }
-    }
-  ]
+    "projects": [
+        {
+            "title": "Append",
+            "current": true,
+            "date": "June 2020 - Present",
+            "description": "Camera-Based Card Reader",
+            "repo": "https://github.com/AdvaithNair/append",
+            "about": "Append is a simple Python command line app that reads credit card numbers using the camera.",
+            "tech": {
+                "general": ["Python Environments"],
+                "frontend": ["Unix UI"],
+                "backend": ["Python", "OpenCV", "Numpy"]
+            }
+        },
+        {
+            "title": "Clickbait",
+            "current": true,
+            "date": "May 2020 - Present",
+            "description": "YouTube Video Recommender",
+            "repo": "https://github.com/AdvaithNair/clickbait",
+            "about": "Clickbait is a web app that recommends you trending videos from a dataset of around 6,000 videos.",
+            "tech": {
+                "general": [
+                    "Docker",
+                    "Docker Compose",
+                    "Azure DevOps",
+                    "CI/CD",
+                    "Kubernetes"
+                ],
+                "frontend": [
+                    "VueJS",
+                    "NuxtJS",
+                    "Axios",
+                    "VueX",
+                    "Server Side Rendering"
+                ],
+                "backend": [
+                    "Python",
+                    "Flask",
+                    "Pandas",
+                    "Sci-kit Learn",
+                    "SciPy",
+                    "NodeJS",
+                    "ExpressJS",
+                    "Rust",
+                    "Rocket",
+                    "GoLang",
+                    "MongoDB"
+                ]
+            }
+        },
+        {
+            "title": "Vibe",
+            "current": true,
+            "date": "October 2020 - Present",
+            "description": "Everything Audio",
+            "repo": "https://github.com/VibeAudio",
+            "about": "Vibe is a social media application centered around the distribution, discovery, and interaction with audio content.",
+            "tech": {
+                "general": [
+                    "Amazon Web Services",
+                    "Agile Scrum",
+                    "Postman",
+                    "Google OAuth",
+                    "Facebook OAuth"
+                ],
+                "frontend": [
+                    "TypeScript",
+                    "ReactJS",
+                    "React Native",
+                    "React Context API",
+                    "Material UI",
+                    "Axios",
+                    "JSON Web Tokens"
+                ],
+                "backend": [
+                    "TypeScript",
+                    "NodeJS",
+                    "ExpressJS",
+                    "Express Sessions",
+                    "PostgreSQL Database",
+                    "Redis In-Memory Cache",
+                    "Amazon S3 (Bucket Storage)",
+                    "TypeORM",
+                    "PassportJS OAuth Service"
+                ]
+            }
+        },
+        {
+            "title": "CountyGarden",
+            "current": false,
+            "date": "February 2021 - May 2021",
+            "description": "CSE 241 Project",
+            "repo": "https://github.com/AdvaithNair/cse241",
+            "about": "CountyGarden is an insurance system project I did for my CSE 241 Databases class at Lehigh.",
+            "tech": {
+                "general": ["Amazon Web Services"],
+                "frontend": ["Unix UI", "Java Error Handling Techniques"],
+                "backend": [
+                    "Java",
+                    "JDBC",
+                    "OracleDB",
+                    "SQL",
+                    "PL/SQL",
+                    "SQL Triggers",
+                    "Exception-Driven Error Handling"
+                ]
+            }
+        },
+        {
+            "title": "Forrest",
+            "current": false,
+            "date": "September 2020 - September 2020",
+            "description": "Save The Environment",
+            "repo": "https://github.com/AdvaithNair/Forrest",
+            "about": "Forrest is a directions utility app that calculates the most energy and environmentally efficient route.",
+            "tech": {
+                "general": [
+                    "GraphQL API",
+                    "Postman",
+                    "Google OAuth",
+                    "Facebook OAuth"
+                ],
+                "frontend": [
+                    "TypeScript",
+                    "ReactJS",
+                    "React Native",
+                    "React Context API",
+                    "Material UI",
+                    "Apollo Client",
+                    "Axios",
+                    "JSON Web Tokens"
+                ],
+                "backend": [
+                    "TypeScript",
+                    "NodeJS",
+                    "ExpressJS",
+                    "Express Sessions",
+                    "PostgreSQL Database",
+                    "Redis In-Memory Cache",
+                    "Google Cloud Storage (Bucket Storage)",
+                    "Type GraphQL",
+                    "TypeORM",
+                    "PassportJS OAuth Service"
+                ]
+            }
+        },
+        {
+            "title": "RANT",
+            "current": false,
+            "date": "April 2020 - June 2020",
+            "description": "The Platform to Vent",
+            "repo": "https://github.com/AdvaithNair/rant",
+            "site": "https://rant-dd853.web.app/",
+            "about": "RANT is a Social Media designed for people to RANT away their frustrations, featuring anonymous, private, and public posting.",
+            "tech": {
+                "general": ["REST API", "Postman"],
+                "frontend": [
+                    "TypeScript",
+                    "ReactJS",
+                    "React Context API",
+                    "Material UI",
+                    "Axios",
+                    "DayJS",
+                    "JSON Web Tokens",
+                    "Firebase Hosting"
+                ],
+                "backend": [
+                    "TypeScript",
+                    "NodeJS",
+                    "ExpressJS",
+                    "Firebase Cloud Functions (Serverless API Deployment)",
+                    "Firebase Cloud Firestore (NoSQL Database)",
+                    "Firebase Cloud Storage (Bucket Storage)"
+                ]
+            }
+        },
+        {
+            "title": "Aglet",
+            "current": false,
+            "date": "April 2020 - April 2020",
+            "description": "Your Sneaker Collection",
+            "repo": "https://github.com/AdvaithNair/aglet",
+            "about": "Aglet is a sneaker wishlist app, where users can create, update, and delete sneaker listings featuring fast sorting options.",
+            "tech": {
+                "general": ["GraphQL API"],
+                "frontend": [
+                    "JavaScript",
+                    "ReactJS",
+                    "Material UI",
+                    "Apollo Client"
+                ],
+                "backend": [
+                    "JavaScript",
+                    "NodeJS",
+                    "Apollo Server",
+                    "Prisma GraphQL Yoga Server",
+                    "MongoDB"
+                ]
+            }
+        },
+        {
+            "title": "Robotics Scouting",
+            "current": false,
+            "date": "September 2017 - April 2018",
+            "description": "FIRST Robotics Data Analytics Platform",
+            "site": "https://play.google.com/store/apps/details?id=overcharged.nair.advaith.relicrecoveryscouting&hl=en_US",
+            "about": "FTC Relic Recovery Scouting is an application for robotics students to enter robot match data to generate a ranked list of teams to ally with.",
+            "tech": {
+                "general": ["Social Media Marketing"],
+                "frontend": ["Java", "XML", "Android Studio"],
+                "backend": ["Java", "MySQL"]
+            }
+        }
+    ]
 }
