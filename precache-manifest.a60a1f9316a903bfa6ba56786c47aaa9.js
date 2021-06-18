@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5416e5133534ad184d64bd18ff7f0d1d",
+    "revision": "94d503bca435c57458a6075219c36f86",
     "url": "/index.html"
   },
   {
-    "revision": "b51039e11bb03028e937",
-    "url": "/static/css/main.412f3427.chunk.css"
+    "revision": "04669bfcceeae5a2d8e6",
+    "url": "/static/css/main.344d9c48.chunk.css"
   },
   {
-    "revision": "5df9ea78e4624e2548e1",
-    "url": "/static/js/2.fa5fcb3e.chunk.js"
+    "revision": "d671a696172c4002edf7",
+    "url": "/static/js/2.6d4f7ca2.chunk.js"
   },
   {
     "revision": "89b0379e7bcda1a468d8b0343aeb4e53",
-    "url": "/static/js/2.fa5fcb3e.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6d4f7ca2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b51039e11bb03028e937",
-    "url": "/static/js/main.1add4abd.chunk.js"
+    "revision": "04669bfcceeae5a2d8e6",
+    "url": "/static/js/main.61f7a2e4.chunk.js"
   },
   {
     "revision": "8cdf164702af695058ba",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "69611b170696dc87ed50903b17876528",
     "url": "/static/media/3.69611b17.png"
+  },
+  {
+    "revision": "e2f3d6a4c8bd7d5d75ffa91516261b53",
+    "url": "/static/media/AWS.e2f3d6a4.png"
   },
   {
     "revision": "2b23b3e7deeaa36f630e0881ae7ffc2a",
@@ -64,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/AgletLogo.d1e90b88.png"
   },
   {
-    "revision": "71785a3f18e33a5edfdd50a4910444ab",
-    "url": "/static/media/Album.71785a3f.png"
+    "revision": "a3b793815340594953974cff1c1c3018",
+    "url": "/static/media/Album.a3b79381.png"
   },
   {
     "revision": "bfb0a22045c3cd9c9fcc72ad7263303a",
@@ -88,6 +92,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Artist.26063cfe.png"
   },
   {
+    "revision": "60a10d9d0a152f1763e6dc135c1d2109",
+    "url": "/static/media/Azure.60a10d9d.png"
+  },
+  {
     "revision": "87eadc250c2110a623af65ce12cbc181",
     "url": "/static/media/C++.87eadc25.png"
   },
@@ -100,12 +108,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/CSharp.07f4de0a.png"
   },
   {
+    "revision": "c680d83f558b3e4bba282cb68fd6db7d",
+    "url": "/static/media/Clickbait-app.c680d83f.png"
+  },
+  {
+    "revision": "d16145df9c2f46dfc52a13831113bdb9",
+    "url": "/static/media/Clickbait-logo.d16145df.png"
+  },
+  {
     "revision": "4d69bd6e0e352b1fad233c6fbae29a7e",
     "url": "/static/media/Complete.4d69bd6e.png"
   },
   {
+    "revision": "c3b6bc3ee82ce6f463356a71d641ec4c",
+    "url": "/static/media/CountyGarden-app.c3b6bc3e.png"
+  },
+  {
+    "revision": "c3b6bc3ee82ce6f463356a71d641ec4c",
+    "url": "/static/media/CountyGarden-logo.c3b6bc3e.png"
+  },
+  {
     "revision": "2b645aebb56d7fd096d0bef0ed71f956",
     "url": "/static/media/Cover.2b645aeb.jpg"
+  },
+  {
+    "revision": "2103c44598b4a6454d3df6e57b3d1415",
+    "url": "/static/media/Docker.2103c445.png"
   },
   {
     "revision": "ebf552b1c18d959d49d45db9504e26b1",
@@ -180,6 +208,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/JavaScript.c111590a.png"
   },
   {
+    "revision": "348570c3a255567d7bd0a836c13a4655",
+    "url": "/static/media/Jupyter.348570c3.png"
+  },
+  {
+    "revision": "bdc1f856584344ea2f11ee8550d77586",
+    "url": "/static/media/Kubernetes.bdc1f856.png"
+  },
+  {
     "revision": "57edbd2479f27b6a92e9a9e1f5163eb5",
     "url": "/static/media/Lehigh.57edbd24.png"
   },
@@ -204,6 +240,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/MemorEase.b5431037.png"
   },
   {
+    "revision": "ba0f6e6173960f113a24cf31eeaafc65",
+    "url": "/static/media/MongoDB.ba0f6e61.png"
+  },
+  {
     "revision": "2ed62a245be2c55fdb1d110b2d9a8ae0",
     "url": "/static/media/NeoFlow.2ed62a24.png"
   },
@@ -226,6 +266,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f12b1fb73536e9dbe9288d399333e48a",
     "url": "/static/media/Optic.f12b1fb7.png"
+  },
+  {
+    "revision": "80f34b2ab2e58b42499646d3714d4b83",
+    "url": "/static/media/OracleDB.80f34b2a.png"
   },
   {
     "revision": "0d7e30e571c54336c70610bb05fcbf9c",
@@ -269,6 +313,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "84a3ad4a25dd5ceb003cacf416f73a12",
+    "url": "/static/media/React Native.84a3ad4a.png"
+  },
+  {
+    "revision": "84a3ad4a25dd5ceb003cacf416f73a12",
     "url": "/static/media/ReactJS.84a3ad4a.png"
   },
   {
@@ -286,6 +334,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "843f8c2e6cb000a4e775da494bccfa97",
     "url": "/static/media/Robot.843f8c2e.png"
+  },
+  {
+    "revision": "11bec7e5da9f87867fe81ab72d9e7f84",
+    "url": "/static/media/Rust.11bec7e5.png"
   },
   {
     "revision": "3b4b4d37a12b49d006ccc9b0f253508d",
@@ -318,6 +370,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f915a8a3c2afaef29428c7b7c46603fd",
     "url": "/static/media/TypeScript.f915a8a3.png"
+  },
+  {
+    "revision": "5e8f7eb8babf6dacd65ff06ba9059d74",
+    "url": "/static/media/Vibe-app.5e8f7eb8.png"
+  },
+  {
+    "revision": "0c1bdbd7a71cfa944923c930255216b7",
+    "url": "/static/media/Vibe-logo.0c1bdbd7.png"
+  },
+  {
+    "revision": "ed419638ef916666a989dfa868238b93",
+    "url": "/static/media/Vue.ed419638.png"
   },
   {
     "revision": "88c220f4eaecd3dbd87f752934ade5fd",
